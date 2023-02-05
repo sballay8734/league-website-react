@@ -1,0 +1,59 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+// *****************************************************************************
+
+.owner-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  max-width: 600px;
+}
+
+.owner-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.owner-name {
+  padding-left: 1rem;
+}
+
+// button group ****************************************************************
+.btn-group {
+  display: flex;
+  padding-right: 1rem;
+}
+
+.btn-group button {
+  background-color: #0c6dfc;
+  border: 1px solid #0c6dfc;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  border-radius: 1rem;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #74abfd;
+}

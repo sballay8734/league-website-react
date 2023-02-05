@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+}
+
+.owner-card {
+  max-width: 600px;
+  border: 1px solid red;
+  flex-direction: column;
+  display: flex;
+}
+
+.owner-card-header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.owner-name {
+  padding-left: 1rem;
+}
+
+.btn-group {
+  padding-right: 1rem;
+  display: flex;
+}
+
+.btn-group button {
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  background-color: #0c6dfc;
+  border: 1px solid #0c6dfc;
+  border-radius: 1rem;
+  padding: 10px 24px;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
+  background-color: #74abfd;
+}
+
+/*# sourceMappingURL=index.ce1d6491.css.map */
