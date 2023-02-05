@@ -1,10 +1,13 @@
 body {
   box-sizing: border-box;
+  justify-content: center;
   margin: 1rem;
   padding: 0;
+  display: flex;
 }
 
 .grid {
+  grid-template-columns: 500px 500px 500px;
   display: grid;
 }
 
@@ -16,8 +19,27 @@ body {
 }
 
 .owner-card-header {
+  border: 1px solid #000;
   justify-content: space-between;
+  margin: 1rem;
   display: flex;
+}
+
+.owner-card-overview, .owner-card-dropdown, .owner-card-stats {
+  border: 1px solid #000;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+}
+
+.owner-card-dropdown {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.owner-card-stats {
+  margin-top: 1rem;
 }
 
 .owner-name {
@@ -25,18 +47,20 @@ body {
 }
 
 .btn-group {
+  align-items: center;
   padding-right: 1rem;
   display: flex;
 }
 
 .btn-group button {
   color: #fff;
+  width: 7rem;
+  height: 3rem;
   cursor: pointer;
   float: left;
   background-color: #0c6dfc;
   border: 1px solid #0c6dfc;
   border-radius: 1rem;
-  padding: 10px 24px;
 }
 
 .btn-group button:not(:last-child) {

@@ -27164,6 +27164,72 @@ const MainView = ()=>{
             ownerName: "Shawn Ballay",
             wins: 11,
             losses: 3
+        },
+        {
+            id: 2,
+            ownerName: "Dominic Nocito",
+            wins: 8,
+            losses: 6
+        },
+        {
+            id: 3,
+            ownerName: "Steven Smith",
+            wins: 8,
+            losses: 6
+        },
+        {
+            id: 4,
+            ownerName: "Joe Kane",
+            wins: 7,
+            losses: 7
+        },
+        {
+            id: 5,
+            ownerName: "Stephen Lloyd",
+            wins: 8,
+            losses: 6
+        },
+        {
+            id: 6,
+            ownerName: "Cody Zwier",
+            wins: 7,
+            losses: 7
+        },
+        {
+            id: 7,
+            ownerName: "Dominic DiFilippo",
+            wins: 7,
+            losses: 7
+        },
+        {
+            id: 8,
+            ownerName: "Jimmy Wagner",
+            wins: 6,
+            losses: 8
+        },
+        {
+            id: 9,
+            ownerName: "Dan George",
+            wins: 6,
+            losses: 8
+        },
+        {
+            id: 10,
+            ownerName: "Aaron MacKenzie",
+            wins: 6,
+            losses: 8
+        },
+        {
+            id: 11,
+            ownerName: "Dante Nocito",
+            wins: 5,
+            losses: 9
+        },
+        {
+            id: 12,
+            ownerName: "Don Irons",
+            wins: 5,
+            losses: 9
         }
     ]);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27181,7 +27247,7 @@ const MainView = ()=>{
         columnNumber: 5
     }, undefined);
 };
-_s(MainView, "rYX9XEYunOuKFtAd+dLyjUDgBeI=");
+_s(MainView, "oQySp3cFvd8VrBgABb0PdbTk//8=");
 _c = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");
@@ -27412,24 +27478,65 @@ const OwnerCard = ({ owner  })=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "owner-card-overview"
+                className: "owner-card-overview",
+                children: "Championships, total wins, etc.... MAIN STATS"
             }, void 0, false, {
                 fileName: "src/components/owner-card/owner-card.jsx",
                 lineNumber: 14,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "owner-card-stats"
-            }, void 0, false, {
+                className: "owner-card-stats",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            "Wins: ",
+                            owner.wins
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            "Losses: ",
+                            owner.losses
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            "Winning Percentage: ",
+                            calcWinPercentage(owner),
+                            "%"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/owner-card/owner-card.jsx",
                 lineNumber: 19,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "owner-card-dropdown"
+                className: "owner-card-dropdown",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    children: "Click here to view all stats"
+                }, void 0, false, {
+                    fileName: "src/components/owner-card/owner-card.jsx",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 24,
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined)
         ]
@@ -27438,6 +27545,10 @@ const OwnerCard = ({ owner  })=>{
         lineNumber: 3,
         columnNumber: 5
     }, undefined);
+    // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    function calcWinPercentage(owner) {
+        return (owner.wins / (owner.wins + owner.losses) * 100).toFixed(2);
+    }
 };
 _c = OwnerCard;
 var _c;

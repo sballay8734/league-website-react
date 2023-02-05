@@ -2,10 +2,13 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .grid {
   display: grid;
+  grid-template-columns: 500px 500px 500px;
 }
 
 // *****************************************************************************
@@ -20,6 +23,27 @@ body {
 .owner-card-header {
   display: flex;
   justify-content: space-between;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.owner-card-overview,
+.owner-card-dropdown,
+.owner-card-stats {
+  display: flex;
+  border: 1px solid black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  justify-content: center;
+}
+
+.owner-card-dropdown {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.owner-card-stats {
+  margin-top: 1rem;
 }
 
 .owner-name {
@@ -30,13 +54,15 @@ body {
 .btn-group {
   display: flex;
   padding-right: 1rem;
+  align-items: center;
 }
 
 .btn-group button {
   background-color: #0c6dfc;
   border: 1px solid #0c6dfc;
   color: white;
-  padding: 10px 24px;
+  width: 7rem;
+  height: 3rem;
   cursor: pointer;
   float: left;
   border-radius: 1rem;
