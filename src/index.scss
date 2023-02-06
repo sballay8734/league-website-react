@@ -37,6 +37,21 @@ body {
   justify-content: center;
 }
 
+.owner-card-overview {
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.owner-card-stats {
+  justify-content: space-around;
+  // maybe use space-between & padding-left to align with name and image above
+}
+
+.owner-card-overview-image {
+  align-self: center;
+  padding-left: 1rem;
+}
+
 .owner-card-dropdown {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -48,6 +63,10 @@ body {
 
 .owner-name {
   padding-left: 1rem;
+}
+
+.bold-stat {
+  font-weight: bold;
 }
 
 // button group ****************************************************************
@@ -65,7 +84,7 @@ body {
   height: 3rem;
   cursor: pointer;
   float: left;
-  border-radius: 1rem;
+  // border-radius: 1rem;
 }
 
 .btn-group button:not(:last-child) {
@@ -82,4 +101,14 @@ body {
 /* Add a background color on hover */
 .btn-group button:hover {
   background-color: #74abfd;
+}
+
+.btn-left {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.btn-right {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }

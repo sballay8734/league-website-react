@@ -3,23 +3,47 @@ export const OwnerCard = ({ owner }) => {
     <div className="owner-card">
       {/* *************************** header *************************** */}
       <div className="owner-card-header">
-        <h1 className="owner-name">{owner.ownerName}</h1>
+        <h2 className="owner-name">{owner.ownerName}</h2>
         <div className="btn-group">
-          <button type="btn">All-Time</button>
-          <button type="btn active">Current Year</button>
+          <button type="btn" className="btn-left">All-Time</button>
+          <button type="btn" className="btn-right">Current Year</button>
         </div>
       </div>
 
       {/* ************************** overview ************************** */}
       <div className="owner-card-overview">
-        Championships, total wins, etc.... MAIN STATS
+        <img className="owner-card-overview-image" src="https://via.placeholder.com/75" alt="" />
+        <div className="owner-card-overview-col">
+          <p>Seasons: </p>
+          <p>Playoff Apps: </p>
+        </div>
+        <div className="owner-card-overview-col">
+          <p>Championships: </p>
+          <p>Winning Pct: </p>
+        </div>
       </div>
 
       {/* *************************** stats **************************** */}
       <div className="owner-card-stats">
-        <div>Wins: {owner.wins}</div>
-        <div>Losses: {owner.losses}</div>
-        <div>Winning Percentage: {calcWinPercentage(owner)}%</div>
+        <div className="owner-card-stats-col">
+          <p>Wins: <span className="bold-stat">{owner.wins}</span></p>
+          <p>Losses: <span className="bold-stat">{owner.losses}</span></p>
+          <p>Winning Pct: 
+            <span className="bold-stat">{calcWinPercentage(owner)}%</span></p>
+        </div>
+          
+        <div className="owner-card-stats-col">
+          <p>Wins: <span className="bold-stat">{owner.wins}</span></p>
+          <p>Losses: <span className="bold-stat">{owner.losses}</span></p>
+          <p>Winning Pct: 
+            <span className="bold-stat">{calcWinPercentage(owner)}%</span></p>
+        </div>
+        <div className="owner-card-stats-col">
+          <p>Wins: <span className="bold-stat">{owner.wins}</span></p>
+          <p>Losses: <span className="bold-stat">{owner.losses}</span></p>
+          <p>Win Pct: 
+            <span className="bold-stat">{calcWinPercentage(owner)}%</span></p>
+        </div>
       </div>
 
       {/* ************************** dropdown ************************** */}
@@ -33,7 +57,7 @@ export const OwnerCard = ({ owner }) => {
   // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
   function calcWinPercentage(owner) {
-    return ((owner.wins / (owner.wins + owner.losses)) * 100).toFixed(2)
+    return ((owner.wins / (owner.wins + owner.losses)) * 100).toFixed(1)
   };
 
 }

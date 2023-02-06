@@ -33,6 +33,20 @@ body {
   display: flex;
 }
 
+.owner-card-overview {
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.owner-card-stats {
+  justify-content: space-around;
+}
+
+.owner-card-overview-image {
+  align-self: center;
+  padding-left: 1rem;
+}
+
 .owner-card-dropdown {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -44,6 +58,10 @@ body {
 
 .owner-name {
   padding-left: 1rem;
+}
+
+.bold-stat {
+  font-weight: bold;
 }
 
 .btn-group {
@@ -60,7 +78,6 @@ body {
   float: left;
   background-color: #0c6dfc;
   border: 1px solid #0c6dfc;
-  border-radius: 1rem;
 }
 
 .btn-group button:not(:last-child) {
@@ -75,6 +92,16 @@ body {
 
 .btn-group button:hover {
   background-color: #74abfd;
+}
+
+.btn-left {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.btn-right {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */
