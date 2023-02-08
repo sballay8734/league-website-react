@@ -1,4 +1,12 @@
 export const OwnerCard = ({ owner }) => {
+
+  // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  function calcWinPercentage(owner) {
+    return ((owner.wins / (owner.wins + owner.losses)) * 100).toFixed(1)
+  };
+
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
   return (
     <div className="owner-card">
       {/* *************************** header *************************** */}
@@ -53,11 +61,5 @@ export const OwnerCard = ({ owner }) => {
 
     </div>
   )
-
-  // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-  function calcWinPercentage(owner) {
-    return ((owner.wins / (owner.wins + owner.losses)) * 100).toFixed(1)
-  };
 
 }
