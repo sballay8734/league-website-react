@@ -1,3 +1,5 @@
+// NEED TO ADD STRIKES TO OBJECTS TO TRACK KING OF THE HILL
+
 let teamsObject = [
   {
     ownerName: "shawnB",
@@ -14,7 +16,8 @@ let teamsObject = [
         weekOne: 120.12,
         weekTwo: 87.09,
         weekThree: 98.21
-      }
+      },
+      strikes: 0
     },
     2015: {
       wins: 11,
@@ -28,7 +31,8 @@ let teamsObject = [
         weekOne: 120.12,
         weekTwo: 87.09,
         weekThree: 98.21
-      }
+      },
+      strikes: 0
     },
   },
   {
@@ -65,9 +69,9 @@ let teamsObject = [
 ]
 
 
-// THIS WORKS!!!!!!
+// THIS WORKS!!!!!! ************************************************************
 // calculate total points for BY YEAR
-function calcTotalPointsFor(owner, year) {
+function calcYearlyTotalPointsFor(owner, year) {
   owner = teamsObject.find(item => item.ownerName);
   let totalPointsFor = 0;
 
@@ -78,10 +82,25 @@ function calcTotalPointsFor(owner, year) {
 
   return totalPointsFor.toFixed(2);
 }
-// console.log(calcTotalPointsFor("shawnB", 2014));
+// console.log(calcYearlyTotalPointsFor("shawnB", 2014));
+
+// THIS WORKS!!!!!! ************************************************************
+// calculate total points against BY YEAR
+function calcYearlyTotalPointsAgainst(owner, year) {
+  owner = teamsObject.find(item => item.ownerName);
+  let totalPointsAgainst = 0;
+
+  let keys = Object.keys(owner[year].pointsAgainst);
+  keys.forEach((key, index) => {
+    totalPointsAgainst += owner[year].pointsAgainst[key]
+  });
+
+  return totalPointsAgainst.toFixed(2);
+}
+console.log(calcYearlyTotalPointsAgainst("steveS", 2014));
 
 
-// THIS WORKS TOO HOLY SHIT!!!!
+// THIS WORKS TOO HOLY SHIT!!!! ************************************************
 // calculate total points for ALL TIME
 function calcAllTimePointsFor(owner) {
   owner = teamsObject.find(item => item.ownerName);
@@ -98,5 +117,36 @@ function calcAllTimePointsFor(owner) {
   })
   return totalPointsFor.toFixed(2);
 }
-
 console.log(calcAllTimePointsFor("shawnB"))
+
+
+
+// THIS WORKS TOO WOWWWWWW
+// Finds low scores. You decide how many to find (bottom 4, 3 or 2... etc);
+let weeklyScores = {
+  "shawnB": 123.20,
+  "steveS": 145.29,
+  "donnieI": 109.38,
+  "aaronM": 97.29
+}
+
+function whoGetsStrike(object, strikesToGive) {
+  let strikes = strikesToGive;
+  let iterations = 0;
+  let giveTo = []
+  while (iterations < strikes) {
+    let arr = Object.values(weeklyScores);
+    let min = Math.min(...arr);
+    let itemToPush = Object.keys(object).find((key) => object[key] === min)
+
+    giveTo.push(itemToPush);
+    delete object[itemToPush];
+
+    iterations += 1;
+  }
+
+  return giveTo;
+}
+console.log(whoGetsStrike(weeklyScores, 2))
+
+
