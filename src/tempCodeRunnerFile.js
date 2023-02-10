@@ -1,0 +1,1 @@
+console.log(teamsObjects.find(element => element.ownerName = "shawnB"))
