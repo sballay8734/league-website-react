@@ -123,7 +123,7 @@ console.log(calcAllTimePointsFor("shawnB"))
 
 // THIS WORKS TOO WOWWWWWW
 // Finds low scores. You decide how many to find (bottom 4, 3 or 2... etc);
-let weeklyScores = {
+let weekOneScores = {
   "shawnB": 123.20,
   "steveS": 145.29,
   "donnieI": 109.38,
@@ -135,7 +135,7 @@ function whoGetsStrike(object, strikesToGive) {
   let iterations = 0;
   let giveTo = []
   while (iterations < strikes) {
-    let arr = Object.values(weeklyScores);
+    let arr = Object.values(weekOneScores);
     let min = Math.min(...arr);
     let itemToPush = Object.keys(object).find((key) => object[key] === min)
 
@@ -147,6 +147,6 @@ function whoGetsStrike(object, strikesToGive) {
 
   return giveTo;
 }
-console.log(whoGetsStrike(weeklyScores, 2))
+console.log(whoGetsStrike(weekOneScores, 2))
 
 
