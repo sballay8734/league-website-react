@@ -27158,96 +27158,39 @@ var _ownerCard = require("../owner-card/owner-card");
 var _s = $RefreshSig$();
 const MainView = ()=>{
     _s();
+    const [year, setYear] = (0, _react.useState)(2014);
     const [owners, updateOwners] = (0, _react.useState)([
         {
             id: 1,
             ownerName: "Shawn Ballay",
-            wins: 11,
-            losses: 3
-        },
-        {
-            id: 2,
-            ownerName: "Dominic Nocito",
-            wins: 8,
-            losses: 6
-        },
-        {
-            id: 3,
-            ownerName: "Steven Smith",
-            wins: 8,
-            losses: 6
-        },
-        {
-            id: 4,
-            ownerName: "Joe Kane",
-            wins: 7,
-            losses: 7
-        },
-        {
-            id: 5,
-            ownerName: "Stephen Lloyd",
-            wins: 8,
-            losses: 6
-        },
-        {
-            id: 6,
-            ownerName: "Cody Zwier",
-            wins: 7,
-            losses: 7
-        },
-        {
-            id: 7,
-            ownerName: "Dominic DiFilippo",
-            wins: 7,
-            losses: 7
-        },
-        {
-            id: 8,
-            ownerName: "Jimmy Wagner",
-            wins: 6,
-            losses: 8
-        },
-        {
-            id: 9,
-            ownerName: "Dan George",
-            wins: 6,
-            losses: 8
-        },
-        {
-            id: 10,
-            ownerName: "Aaron MacKenzie",
-            wins: 6,
-            losses: 8
-        },
-        {
-            id: 11,
-            ownerName: "Dante Nocito",
-            wins: 5,
-            losses: 9
-        },
-        {
-            id: 12,
-            ownerName: "Don Irons",
-            wins: 5,
-            losses: 9
+            2014: {
+                wins: 11,
+                losses: 3
+            },
+            2015: {
+                wins: 9,
+                losses: 6
+            }
         }
     ]);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "grid",
         children: owners.map((owner)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ownerCard.OwnerCard), {
-                owner: owner
+                owner: owner,
+                year: year,
+                setYear: setYear
             }, owner.id, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 83,
+                lineNumber: 92,
                 columnNumber: 9
             }, undefined))
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 81,
+        lineNumber: 90,
         columnNumber: 5
     }, undefined);
 };
-_s(MainView, "oQySp3cFvd8VrBgABb0PdbTk//8=");
+_s(MainView, "LVlcSH0GglGbSJa/KWtRb9Drt8I=");
 _c = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");
@@ -27431,7 +27374,12 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "OwnerCard", ()=>OwnerCard);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const OwnerCard = ({ owner  })=>{
+const OwnerCard = ({ owner , year , setYear  })=>{
+    // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    function calcWinPercentage(owner) {
+        return (owner[year].wins / (owner[year].wins + owner[year].losses) * 100).toFixed(1);
+    }
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "owner-card",
         children: [
@@ -27443,7 +27391,7 @@ const OwnerCard = ({ owner  })=>{
                         children: owner.ownerName
                     }, void 0, false, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 6,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27455,7 +27403,7 @@ const OwnerCard = ({ owner  })=>{
                                 children: "All-Time"
                             }, void 0, false, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 8,
+                                lineNumber: 16,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27464,19 +27412,102 @@ const OwnerCard = ({ owner  })=>{
                                 children: "Current Year"
                             }, void 0, false, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 9,
+                                lineNumber: 17,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 7,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 5,
+                lineNumber: 13,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "owner-card-year hidden",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>setYear(2014),
+                        className: "year",
+                        children: "2014"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 24,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>setYear(2015),
+                        className: "year",
+                        children: "2015"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "year",
+                        children: "2016"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 26,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "year",
+                        children: "2017"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 27,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "year",
+                        children: "2018"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "year",
+                        children: "2019"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 29,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "year",
+                        children: "2020"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 30,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "year",
+                        children: "2021"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "year",
+                        children: "2022"
+                    }, void 0, false, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/owner-card/owner-card.jsx",
+                lineNumber: 23,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27484,224 +27515,69 @@ const OwnerCard = ({ owner  })=>{
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         className: "owner-card-overview-image",
-                        src: "https://via.placeholder.com/75",
+                        src: "https://via.placeholder.com/60",
                         alt: ""
                     }, void 0, false, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 15,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "owner-card-overview-col",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Seasons: "
-                            }, void 0, false, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 17,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Playoff Apps: "
-                            }, void 0, false, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "owner-card-overview-col",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Championships: "
-                            }, void 0, false, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 21,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Winning Pct: "
-                            }, void 0, false, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 22,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 20,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 14,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "owner-card-stats",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "owner-card-stats-col",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "stats-top",
                                 children: [
-                                    "Wins: ",
+                                    "Seasons: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat",
-                                        children: owner.wins
+                                        className: "bold-stat"
                                     }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 29,
-                                        columnNumber: 20
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 29,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    "Losses: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat",
-                                        children: owner.losses
-                                    }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 30,
-                                        columnNumber: 22
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 30,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    "Winning Pct:",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat",
-                                        children: [
-                                            calcWinPercentage(owner),
-                                            "%"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 32,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 31,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 28,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "owner-card-stats-col",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    "Wins: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat",
-                                        children: owner.wins
-                                    }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 36,
-                                        columnNumber: 20
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 36,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    "Losses: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat",
-                                        children: owner.losses
-                                    }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 37,
-                                        columnNumber: 22
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 37,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    "Winning Pct:",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat",
-                                        children: [
-                                            calcWinPercentage(owner),
-                                            "%"
-                                        ]
-                                    }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
                                         lineNumber: 39,
-                                        columnNumber: 13
+                                        columnNumber: 45
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 38,
+                                lineNumber: 39,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "stats-bottom",
+                                children: [
+                                    "Playoff Apps: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 40,
+                                        columnNumber: 53
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 35,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "owner-card-stats-col",
+                        className: "owner-card-overview-col",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "stats-top",
                                 children: [
-                                    "Wins: ",
+                                    "Championships: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat",
-                                        children: owner.wins
-                                    }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 42,
-                                        columnNumber: 20
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 42,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: [
-                                    "Losses: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat",
-                                        children: owner.losses
+                                        className: "bold-stat"
                                     }, void 0, false, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
                                         lineNumber: 43,
-                                        columnNumber: 22
+                                        columnNumber: 51
                                     }, undefined)
                                 ]
                             }, void 0, true, {
@@ -27710,8 +27586,9 @@ const OwnerCard = ({ owner  })=>{
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "stats-bottom",
                                 children: [
-                                    "Win Pct:",
+                                    "Winning Pct: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         className: "bold-stat",
                                         children: [
@@ -27720,8 +27597,8 @@ const OwnerCard = ({ owner  })=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 45,
-                                        columnNumber: 13
+                                        lineNumber: 44,
+                                        columnNumber: 52
                                     }, undefined)
                                 ]
                             }, void 0, true, {
@@ -27732,39 +27609,296 @@ const OwnerCard = ({ owner  })=>{
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 27,
+                lineNumber: 36,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "owner-card-stats",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "owner-card-stats-col",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Average PF: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 51,
+                                        columnNumber: 50
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 51,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Average PA: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 52,
+                                        columnNumber: 50
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 52,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Wins:",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat",
+                                        children: [
+                                            " ",
+                                            owner[year].wins,
+                                            " "
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 54,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 53,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Losses:",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat",
+                                        children: [
+                                            " ",
+                                            owner[year].losses,
+                                            " "
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 55,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 50,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "owner-card-stats-col",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Playoff Rate: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 60,
+                                        columnNumber: 52
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 60,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Finals Apps: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 51
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 61,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Avg. Finish: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 62,
+                                        columnNumber: 51
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 62,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Last: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 63,
+                                        columnNumber: 44
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 63,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 59,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "owner-card-stats-col",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Lucky Wins: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 66,
+                                        columnNumber: 50
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 66,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Unlucky Losses: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 67,
+                                        columnNumber: 54
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 67,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Close Wins: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 68,
+                                        columnNumber: 50
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 68,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Close Losses: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 69,
+                                        columnNumber: 52
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 69,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/owner-card/owner-card.jsx",
+                        lineNumber: 65,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/owner-card/owner-card.jsx",
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "owner-card-dropdown",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    children: "Click here to view all stats"
-                }, void 0, false, {
+                    class: "dropdown-button",
+                    children: [
+                        "Click to view stats by year ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "arrow",
+                            children: "▼"
+                        }, void 0, false, {
+                            fileName: "src/components/owner-card/owner-card.jsx",
+                            lineNumber: 75,
+                            columnNumber: 69
+                        }, undefined)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/owner-card/owner-card.jsx",
-                    lineNumber: 51,
+                    lineNumber: 75,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 50,
+                lineNumber: 74,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/owner-card/owner-card.jsx",
-        lineNumber: 3,
+        lineNumber: 11,
         columnNumber: 5
     }, undefined);
-    // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    function calcWinPercentage(owner) {
-        return (owner.wins / (owner.wins + owner.losses) * 100).toFixed(1);
-    }
 };
 _c = OwnerCard;
 var _c;

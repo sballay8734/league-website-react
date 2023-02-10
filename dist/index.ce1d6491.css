@@ -1,9 +1,18 @@
+html {
+  font-family: Raleway, sans-serif;
+}
+
 body {
   box-sizing: border-box;
   justify-content: center;
   margin: 1rem;
   padding: 0;
   display: flex;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .grid {
@@ -13,21 +22,25 @@ body {
 
 .owner-card {
   max-width: 600px;
-  border: 1px solid red;
+  border-radius: .5rem;
   flex-direction: column;
   display: flex;
+  box-shadow: 0 1px 4px #00000029;
 }
 
 .owner-card-header {
-  border: 1px solid #000;
   justify-content: space-between;
-  margin: 1rem;
   display: flex;
 }
 
-.owner-card-overview, .owner-card-dropdown, .owner-card-stats {
-  border: 1px solid #000;
+.owner-card-header h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.owner-card-overview, .owner-card-dropdown, .owner-card-stats, .owner-card-year {
   justify-content: center;
+  align-items: center;
   margin-left: 1rem;
   margin-right: 1rem;
   display: flex;
@@ -35,21 +48,45 @@ body {
 
 .owner-card-overview {
   justify-content: flex-start;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .owner-card-stats {
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.owner-card-stats p {
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
+
+.stats-top {
+  padding-bottom: .05rem;
+  font-weight: 500;
+}
+
+.stats-bottom {
+  color: #b1bbc5;
+  padding-top: .05rem;
+  font-size: .7rem;
+  font-weight: 500;
+}
+
+.twelve-stat {
+  color: gray;
+  font-size: .8rem;
+  font-weight: 400;
 }
 
 .owner-card-overview-image {
   align-self: center;
-  padding-left: 1rem;
 }
 
 .owner-card-dropdown {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 .owner-card-stats {
@@ -72,12 +109,13 @@ body {
 
 .btn-group button {
   color: #fff;
-  width: 7rem;
-  height: 3rem;
+  width: 4.5rem;
+  height: 1.8rem;
   cursor: pointer;
   float: left;
   background-color: #0c6dfc;
   border: 1px solid #0c6dfc;
+  font-size: .6rem;
 }
 
 .btn-group button:not(:last-child) {
@@ -95,13 +133,40 @@ body {
 }
 
 .btn-left {
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: .6rem;
+  border-bottom-left-radius: .6rem;
 }
 
 .btn-right {
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: .6rem;
+  border-bottom-right-radius: .6rem;
+}
+
+.year {
+  color: #00f;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.year:hover {
+  text-decoration: underline;
+}
+
+.dropdown-button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #0c6dfc;
+  border: none;
+  border-radius: .5rem;
+  padding: .3rem 1rem;
+  font-size: .6rem;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */

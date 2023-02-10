@@ -1,9 +1,20 @@
+$grey-stat: #b1bbc5;
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 1rem;
   display: flex;
   justify-content: center;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .grid {
@@ -16,45 +27,76 @@ body {
 .owner-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   max-width: 600px;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .owner-card-header {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
-  margin: 1rem;
+  // border: 1px solid black;
+}
+
+.owner-card-header h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 
 .owner-card-overview,
 .owner-card-dropdown,
-.owner-card-stats {
+.owner-card-stats,
+.owner-card-year {
   display: flex;
-  border: 1px solid black;
+  // border: 1px solid black;
   margin-left: 1rem;
   margin-right: 1rem;
   justify-content: center;
+  align-items: center;
 }
 
 .owner-card-overview {
-  gap: 1rem;
+  gap: 2rem;
   justify-content: flex-start;
 }
 
 .owner-card-stats {
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-right: 1rem;
   // maybe use space-between & padding-left to align with name and image above
+}
+
+.owner-card-stats p {
+  padding-bottom: .2rem;
+  padding-top: .2rem;
+}
+
+.stats-top {
+  font-weight: 500;
+  padding-bottom: .05rem;
+}
+
+.stats-bottom {
+  padding-top: .05rem;
+  font-size: .7rem;
+  color: $grey-stat;
+  font-weight: 500;
+}
+
+.twelve-stat {
+  font-size: .8rem;
+  color: grey;
+  font-weight: 400;
 }
 
 .owner-card-overview-image {
   align-self: center;
-  padding-left: 1rem;
 }
 
 .owner-card-dropdown {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 .owner-card-stats {
@@ -80,11 +122,11 @@ body {
   background-color: #0c6dfc;
   border: 1px solid #0c6dfc;
   color: white;
-  width: 7rem;
-  height: 3rem;
+  width: 4.5rem;
+  height: 1.8rem;
   cursor: pointer;
   float: left;
-  // border-radius: 1rem;
+  font-size: .6rem;
 }
 
 .btn-group button:not(:last-child) {
@@ -104,11 +146,38 @@ body {
 }
 
 .btn-left {
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: .6rem;
+  border-bottom-left-radius: .6rem;
 }
 
 .btn-right {
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: .6rem;
+  border-bottom-right-radius: .6rem;
+}
+
+.year {
+  background: none;
+  border: none;
+  color: blue;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.year:hover {
+  text-decoration: underline;
+}
+
+.dropdown-button {
+  cursor: pointer;
+  background-color: #0c6dfc;
+  color: white;
+  border: none;
+  padding: .3rem 1rem;
+  border-radius: .5rem;
+  font-size: .6rem;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
 }
