@@ -64,12 +64,13 @@ p {
   justify-content: space-around;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-top: .3rem;
   // maybe use space-between & padding-left to align with name and image above
 }
 
 .owner-card-stats p {
-  padding-bottom: .2rem;
-  padding-top: .2rem;
+  padding-bottom: .3rem;
+  padding-top: .3rem;
 }
 
 .stats-top {
@@ -95,12 +96,8 @@ p {
 }
 
 .owner-card-dropdown {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
-}
-
-.owner-card-stats {
-  margin-top: 1rem;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
 }
 
 .owner-name {
