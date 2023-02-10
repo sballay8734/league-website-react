@@ -46,6 +46,8 @@ export const OwnerCard = ({ owner, year, setYear }) => {
       </div>
 
       {/* *************************** stats **************************** */}
+      {/* THIS SECTION SHOULD BE MOVED TO NEW COMPONENT ALONG WITH OTHER */}
+      {/* ALL TIME "MAIN" STATS VIEW & CURRENT YEAR STATS VIEW */}
       <div className="owner-card-stats">
         <div className="owner-card-stats-col">
           <p className="twelve-stat">Average PF: <span className="bold-stat"></span></p>
@@ -71,6 +73,7 @@ export const OwnerCard = ({ owner, year, setYear }) => {
       </div>
 
       {/* ************************** dropdown ************************** */}
+      {/* ALL TIME STATS GO HERE. DIFFERENT FROM ALL TIME "MAIN" STATS */}
       <div className="owner-card-dropdown">
         <button class="dropdown-button">Click to view stats by year <span className="arrow">▼</span></button>
       </div>
