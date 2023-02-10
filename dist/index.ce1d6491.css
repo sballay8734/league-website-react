@@ -48,11 +48,11 @@ p {
 
 .owner-card-overview {
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .owner-card-stats {
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 1rem;
   margin-right: 1rem;
 }
