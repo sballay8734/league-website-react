@@ -27223,6 +27223,8 @@ var _button = require("react-bootstrap/Button");
 var _buttonDefault = parcelHelpers.interopDefault(_button);
 var _alltimeStats = require("../alltime-stats/alltime-stats");
 var _currentSeasonStats = require("../current-season-stats/current-season-stats");
+var _shawnBPng = require("../../../public/img/shawnB.png");
+var _shawnBPngDefault = parcelHelpers.interopDefault(_shawnBPng);
 const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
     // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     function calcWinPercentage(owner) {
@@ -27240,7 +27242,7 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                         children: owner.ownerName
                     }, void 0, false, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 20,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {
@@ -27260,12 +27262,12 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                     children: "All-Time"
                                 }, void 0, false, {
                                     fileName: "src/components/owner-card/owner-card.jsx",
-                                    lineNumber: 23,
+                                    lineNumber: 24,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 22,
+                                lineNumber: 23,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default).Item, {
@@ -27279,24 +27281,24 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                     children: "Current Season"
                                 }, void 0, false, {
                                     fileName: "src/components/owner-card/owner-card.jsx",
-                                    lineNumber: 26,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 21,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default).Body, {
@@ -27307,16 +27309,17 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "card-image",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: "https://via.placeholder.com/50",
-                                    alt: ""
+                                    className: "memoji",
+                                    src: (0, _shawnBPngDefault.default),
+                                    alt: "logo"
                                 }, void 0, false, {
                                     fileName: "src/components/owner-card/owner-card.jsx",
-                                    lineNumber: 35,
+                                    lineNumber: 36,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 34,
+                                lineNumber: 35,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27331,13 +27334,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                 children: "9"
                                             }, void 0, false, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 38,
+                                                lineNumber: 39,
                                                 columnNumber: 46
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 38,
+                                        lineNumber: 39,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27352,13 +27355,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "( 5 )"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 40,
+                                                        lineNumber: 41,
                                                         columnNumber: 64
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 40,
+                                                lineNumber: 41,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27369,19 +27372,19 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "4"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 41,
+                                                        lineNumber: 42,
                                                         columnNumber: 52
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 41,
+                                                lineNumber: 42,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 40,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27393,13 +27396,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                 children: "5"
                                             }, void 0, false, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 43,
+                                                lineNumber: 44,
                                                 columnNumber: 54
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 43,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27414,13 +27417,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "( 3.3 )"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 45,
+                                                        lineNumber: 46,
                                                         columnNumber: 64
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 45,
+                                                lineNumber: 46,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27431,25 +27434,25 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "1.7"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 46,
+                                                        lineNumber: 47,
                                                         columnNumber: 52
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 46,
+                                                lineNumber: 47,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 44,
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 37,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27464,13 +27467,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                 children: "3"
                                             }, void 0, false, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 50,
+                                                lineNumber: 51,
                                                 columnNumber: 52
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 50,
+                                        lineNumber: 51,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27485,13 +27488,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "( 0.4 )"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 52,
+                                                        lineNumber: 53,
                                                         columnNumber: 64
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 52,
+                                                lineNumber: 53,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27502,19 +27505,19 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "2.8"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 54,
                                                         columnNumber: 52
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 53,
+                                                lineNumber: 54,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 51,
+                                        lineNumber: 52,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27529,13 +27532,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 55,
+                                                lineNumber: 56,
                                                 columnNumber: 53
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27550,13 +27553,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "( 51.5% )"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 58,
                                                         columnNumber: 64
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 57,
+                                                lineNumber: 58,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27567,53 +27570,53 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "27.1%"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 59,
                                                         columnNumber: 52
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 58,
+                                                lineNumber: 59,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 56,
+                                        lineNumber: 57,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 49,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 33,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "change-stats",
                         children: timeFrame === "All-Time" ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _alltimeStats.AllTimeStats), {}, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 63,
+                            lineNumber: 64,
                             columnNumber: 41
                         }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _currentSeasonStats.CurrentSeasonStats), {}, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 63,
+                            lineNumber: 64,
                             columnNumber: 60
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 62,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default).Footer, {
@@ -27626,24 +27629,24 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                             children: "▼"
                         }, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 67,
+                            lineNumber: 68,
                             columnNumber: 87
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/owner-card/owner-card.jsx",
-                    lineNumber: 67,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 66,
+                lineNumber: 67,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/owner-card/owner-card.jsx",
-        lineNumber: 17,
+        lineNumber: 18,
         columnNumber: 5
     }, undefined);
 };
@@ -27656,7 +27659,7 @@ $RefreshReg$(_c, "OwnerCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-bootstrap/Card":"lAynp","react-bootstrap/Nav":"cXyL2","react-bootstrap/Button":"aPzUt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../alltime-stats/alltime-stats":"1CQVn","../current-season-stats/current-season-stats":"8GLAI"}],"lAynp":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-bootstrap/Card":"lAynp","react-bootstrap/Nav":"cXyL2","react-bootstrap/Button":"aPzUt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../alltime-stats/alltime-stats":"1CQVn","../current-season-stats/current-season-stats":"8GLAI","../../../public/img/shawnB.png":"fm1Fd"}],"lAynp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32321,6 +32324,43 @@ $RefreshReg$(_c, "CurrentSeasonStats");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lJZlQ":[function() {},{}]},["1xC6H","7a1Sg","d8Dch"], "d8Dch", "parcelRequire451a")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fm1Fd":[function(require,module,exports) {
+module.exports = require("8ba2e491ea5ed52").getBundleURL("byUka") + "shawnB.634e7760.png" + "?" + Date.now();
+
+},{"8ba2e491ea5ed52":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"lJZlQ":[function() {},{}]},["1xC6H","7a1Sg","d8Dch"], "d8Dch", "parcelRequire451a")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

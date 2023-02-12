@@ -12091,7 +12091,7 @@ p {
 }
 
 .perm-stats {
-  background-color: #e1f4ff;
+  background-color: #f0f0f0;
   border-radius: .3rem;
   align-items: center;
   gap: 1rem;
@@ -12189,6 +12189,12 @@ p {
 
 .main-stat {
   color: #000;
+}
+
+.memoji {
+  height: 50px;
+  width: 50px;
+  background-color: #fdff76;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */

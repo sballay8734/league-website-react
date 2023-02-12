@@ -1,0 +1,4 @@
+Head to head module
+King of the hill module
+Input data into database
+Get Memoji's from league members

@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 import { AllTimeStats } from '../alltime-stats/alltime-stats';
 import { CurrentSeasonStats } from '../current-season-stats/current-season-stats';
+import logo from '../../../public/img/shawnB.png';
 
 export const OwnerCard = ({ owner, year, setYear, timeFrame, setTimeFrame }) => {
 
@@ -32,7 +33,7 @@ export const OwnerCard = ({ owner, year, setYear, timeFrame, setTimeFrame }) => 
       <Card.Body>
         <div className="perm-stats">
           <div className="card-image">
-            <img src="https://via.placeholder.com/50" alt="" />
+            <img className="memoji" src={logo} alt="logo" />
           </div>
           <div className="perm-stats-left">
             <p className="perm-top">Seasons: <span className="main-stat">9</span></p>

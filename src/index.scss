@@ -101,7 +101,7 @@ p {
   align-items: center;
   gap: 1rem;
   // testing below
-  background-color: #e1f4ff;
+  background-color: #f0f0f0;
   padding: .5rem;
   border-radius: .3rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -199,6 +199,12 @@ p {
 
 .main-stat {
   color:#000000;
+}
+
+.memoji {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(253, 255, 118);
 }
 
 
