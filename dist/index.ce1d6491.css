@@ -4,10 +4,8 @@ html {
 
 body {
   box-sizing: border-box;
-  justify-content: center;
   margin: 1rem;
   padding: 0;
-  display: flex;
 }
 
 p {

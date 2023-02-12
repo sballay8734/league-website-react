@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("90ff01a21a85ef0f");
-var ErrorOverlay = require("ccb0fa0d9cf49945");
+var Refresh = require("62fa2f9b61cec3b7");
+var ErrorOverlay = require("84c3f88ef63d59e1");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"90ff01a21a85ef0f":"786KC","ccb0fa0d9cf49945":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"62fa2f9b61cec3b7":"786KC","84c3f88ef63d59e1":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("f20ff01f949e7798");
+module.exports = require("34fff5f570d29224");
 
-},{"f20ff01f949e7798":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"34fff5f570d29224":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("f20ff01f949e7798");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("db77da7a14acddb3");
+var process = require("b391d52da717c56c");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("db77da7a14acddb3");
     ]);
 });
 
-},{"db77da7a14acddb3":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"b391d52da717c56c":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2959,9 +2959,9 @@ $RefreshReg$(_c, "App");
 }
 },{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("ad4c9f623a9b9f7d");
+module.exports = require("264bf48df415dd1f");
 
-},{"ad4c9f623a9b9f7d":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"264bf48df415dd1f":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -2973,7 +2973,7 @@ module.exports = require("ad4c9f623a9b9f7d");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("8cd98cfd18c6a06d");
+    var React = require("e9060b690e73248a");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3792,11 +3792,11 @@ module.exports = require("ad4c9f623a9b9f7d");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"8cd98cfd18c6a06d":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"e9060b690e73248a":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("36ed3de0b3540631");
+module.exports = require("c19413c770193ae2");
 
-},{"36ed3de0b3540631":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"c19413c770193ae2":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5664,7 +5664,7 @@ module.exports = require("36ed3de0b3540631");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("4208a165c1e5ac1d");
+var m = require("246ca826ad9724a8");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5683,7 +5683,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"4208a165c1e5ac1d":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"246ca826ad9724a8":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5697,9 +5697,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("41621991235cc55f");
+module.exports = require("1880542e0f1ede07");
 
-},{"41621991235cc55f":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"1880542e0f1ede07":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5712,8 +5712,8 @@ module.exports = require("41621991235cc55f");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("93a48800e2daf18e");
-    var Scheduler = require("f394bd221b5e8ef1");
+    var React = require("4a8d7fe91902bc4a");
+    var Scheduler = require("1477b170516ae87f");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26684,11 +26684,11 @@ module.exports = require("41621991235cc55f");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"93a48800e2daf18e":"21dqq","f394bd221b5e8ef1":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"4a8d7fe91902bc4a":"21dqq","1477b170516ae87f":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("54f8df2f7cb28a67");
+module.exports = require("391e13b18b375388");
 
-},{"54f8df2f7cb28a67":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"391e13b18b375388":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27200,170 +27200,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react/jsx-dev-runtime":"iTorj","../owner-card/owner-card":"kN7IL"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("ccac28c25aa7604");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30); // Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-} // When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        Refresh.register(exportValue, id + " %exports% " + key);
-    }
-}
-
-},{"ccac28c25aa7604":"786KC"}],"kN7IL":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../owner-card/owner-card":"kN7IL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kN7IL":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c997 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27632,13 +27469,13 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                                         className: "bold-stat"
                                     }, void 0, false, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 51,
+                                        lineNumber: 53,
                                         columnNumber: 50
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 51,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27649,13 +27486,13 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                                         className: "bold-stat"
                                     }, void 0, false, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 52,
+                                        lineNumber: 54,
                                         columnNumber: 50
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 52,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27671,13 +27508,13 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 54,
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 53,
+                                lineNumber: 55,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27693,19 +27530,19 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 56,
+                                        lineNumber: 58,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 55,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 50,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27719,42 +27556,8 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                                         className: "bold-stat"
                                     }, void 0, false, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 60,
-                                        columnNumber: 52
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 60,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "twelve-stat",
-                                children: [
-                                    "Finals Apps: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat"
-                                    }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 61,
-                                        columnNumber: 51
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 61,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "twelve-stat",
-                                children: [
-                                    "Avg. Finish: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat"
-                                    }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
                                         lineNumber: 62,
-                                        columnNumber: 51
+                                        columnNumber: 52
                                     }, undefined)
                                 ]
                             }, void 0, true, {
@@ -27765,24 +27568,58 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 className: "twelve-stat",
                                 children: [
-                                    "Last: ",
+                                    "Finals Apps: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         className: "bold-stat"
                                     }, void 0, false, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
                                         lineNumber: 63,
-                                        columnNumber: 44
+                                        columnNumber: 51
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
                                 lineNumber: 63,
                                 columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Avg. Finish: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 64,
+                                        columnNumber: 51
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 64,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Last: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 65,
+                                        columnNumber: 44
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 65,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 59,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27792,40 +27629,6 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                                 className: "twelve-stat",
                                 children: [
                                     "Lucky Wins: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat"
-                                    }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 66,
-                                        columnNumber: 50
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 66,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "twelve-stat",
-                                children: [
-                                    "Unlucky Losses: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "bold-stat"
-                                    }, void 0, false, {
-                                        fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 67,
-                                        columnNumber: 54
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 67,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "twelve-stat",
-                                children: [
-                                    "Close Wins: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         className: "bold-stat"
                                     }, void 0, false, {
@@ -27842,30 +27645,64 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 className: "twelve-stat",
                                 children: [
-                                    "Close Losses: ",
+                                    "Unlucky Losses: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                         className: "bold-stat"
                                     }, void 0, false, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
                                         lineNumber: 69,
-                                        columnNumber: 52
+                                        columnNumber: 54
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
                                 lineNumber: 69,
                                 columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Close Wins: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 70,
+                                        columnNumber: 50
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 70,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "twelve-stat",
+                                children: [
+                                    "Close Losses: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "bold-stat"
+                                    }, void 0, false, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 71,
+                                        columnNumber: 52
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/owner-card/owner-card.jsx",
+                                lineNumber: 71,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 65,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 49,
+                lineNumber: 51,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27879,18 +27716,18 @@ const OwnerCard = ({ owner , year , setYear  })=>{
                             children: "▼"
                         }, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 75,
+                            lineNumber: 78,
                             columnNumber: 69
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/owner-card/owner-card.jsx",
-                    lineNumber: 75,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 74,
+                lineNumber: 77,
                 columnNumber: 7
             }, undefined)
         ]
@@ -27909,6 +27746,169 @@ $RefreshReg$(_c, "OwnerCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lJZlQ":[function() {},{}]},["1xC6H","7a1Sg","d8Dch"], "d8Dch", "parcelRequire451a")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("f243ee2bfddf1f61");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30); // Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+} // When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        Refresh.register(exportValue, id + " %exports% " + key);
+    }
+}
+
+},{"f243ee2bfddf1f61":"786KC"}],"lJZlQ":[function() {},{}]},["1xC6H","7a1Sg","d8Dch"], "d8Dch", "parcelRequire451a")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
