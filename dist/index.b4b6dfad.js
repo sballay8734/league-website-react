@@ -27327,7 +27327,8 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                         children: [
                                             "Seasons: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "44"
+                                                className: "main-stat",
+                                                children: "9"
                                             }, void 0, false, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
                                                 lineNumber: 38,
@@ -27339,21 +27340,110 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                         lineNumber: 38,
                                         columnNumber: 13
                                     }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "perm-bottom text-muted",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group perm-group",
                                         children: [
-                                            "Playoff Apps: ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "44"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 5 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                                        lineNumber: 40,
+                                                        columnNumber: 64
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 39,
-                                                columnNumber: 65
+                                                lineNumber: 40,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential green",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                                        lineNumber: 41,
+                                                        columnNumber: 52
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/owner-card/owner-card.jsx",
+                                                lineNumber: 41,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
                                         lineNumber: 39,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "perm-bottom",
+                                        children: [
+                                            "Playoff Apps: ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "main-stat",
+                                                children: "5"
+                                            }, void 0, false, {
+                                                fileName: "src/components/owner-card/owner-card.jsx",
+                                                lineNumber: 43,
+                                                columnNumber: 54
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 43,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group perm-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 3.3 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                                        lineNumber: 45,
+                                                        columnNumber: 64
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/owner-card/owner-card.jsx",
+                                                lineNumber: 45,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential green",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "1.7"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                                        lineNumber: 46,
+                                                        columnNumber: 52
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/owner-card/owner-card.jsx",
+                                                lineNumber: 46,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
@@ -27371,42 +27461,131 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                             "Championships: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "gold",
-                                                children: "44"
+                                                children: "3"
                                             }, void 0, false, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 42,
+                                                lineNumber: 50,
                                                 columnNumber: 52
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 42,
+                                        lineNumber: 50,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group perm-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 0.4 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                                        lineNumber: 52,
+                                                        columnNumber: 64
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/owner-card/owner-card.jsx",
+                                                lineNumber: 52,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential green",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "2.8"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                                        lineNumber: 53,
+                                                        columnNumber: 52
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/owner-card/owner-card.jsx",
+                                                lineNumber: 53,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 51,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "perm-bottom text-muted",
+                                        className: "perm-bottom",
                                         children: [
                                             "Winning Pct: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "main-stat",
                                                 children: [
                                                     calcWinPercentage(owner),
                                                     "%"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 43,
-                                                columnNumber: 64
+                                                lineNumber: 55,
+                                                columnNumber: 53
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 43,
+                                        lineNumber: 55,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group perm-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 51.5% )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                                        lineNumber: 57,
+                                                        columnNumber: 64
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/owner-card/owner-card.jsx",
+                                                lineNumber: 57,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential green",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "27.1%"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                                        lineNumber: 58,
+                                                        columnNumber: 52
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/owner-card/owner-card.jsx",
+                                                lineNumber: 58,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/owner-card/owner-card.jsx",
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 41,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -27419,16 +27598,16 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                         className: "change-stats",
                         children: timeFrame === "All-Time" ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _alltimeStats.AllTimeStats), {}, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 47,
+                            lineNumber: 63,
                             columnNumber: 41
                         }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _currentSeasonStats.CurrentSeasonStats), {}, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 47,
-                            columnNumber: 59
+                            lineNumber: 63,
+                            columnNumber: 60
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 46,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -27441,24 +27620,24 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDefault.default), {
                     className: "card-footer-button",
                     children: [
-                        "Click to view stats breakdown ",
+                        "Click to view advanced stats breakdown ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                             className: "hi-there",
                             children: "▼"
                         }, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 51,
-                            columnNumber: 78
+                            lineNumber: 67,
+                            columnNumber: 87
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/owner-card/owner-card.jsx",
-                    lineNumber: 51,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 50,
+                lineNumber: 66,
                 columnNumber: 7
             }, undefined)
         ]
@@ -30346,7 +30525,8 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Average PF: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "444.44"
+                                        className: "main-stat",
+                                        children: "127.3"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 6,
@@ -30367,7 +30547,7 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 118.2 )"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 8,
@@ -30416,7 +30596,8 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Average PA: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "444.44"
+                                        className: "main-stat",
+                                        children: "125.7"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 13,
@@ -30437,7 +30618,7 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 122.9 )"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 15,
@@ -30486,8 +30667,8 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Wins: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "wins",
-                                        children: "4444"
+                                        className: "main-stat",
+                                        children: "95"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 20,
@@ -30508,7 +30689,7 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "4444"
+                                                children: "( 57 )"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 22,
@@ -30525,7 +30706,7 @@ const AllTimeStats = ()=>{
                                         children: [
                                             "+",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "164"
+                                                children: "38"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 23,
@@ -30557,8 +30738,8 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Losses: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "losses",
-                                        children: "4444"
+                                        className: "main-stat",
+                                        children: "32"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 27,
@@ -30579,7 +30760,7 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "4444"
+                                                children: "( 28 )"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 29,
@@ -30596,7 +30777,7 @@ const AllTimeStats = ()=>{
                                         children: [
                                             "-",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "444"
+                                                children: "4"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 30,
@@ -30637,7 +30818,8 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Playoff Rate: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "44.4"
+                                        className: "main-stat",
+                                        children: "85.2"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 36,
@@ -30659,13 +30841,12 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "44.4"
+                                                children: "( 60.4% )"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 38,
                                                 columnNumber: 62
-                                            }, undefined),
-                                            "%"
+                                            }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
@@ -30677,7 +30858,7 @@ const AllTimeStats = ()=>{
                                         children: [
                                             "+",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "44.4"
+                                                children: "23.7"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 39,
@@ -30710,16 +30891,17 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Finals Apps: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "44"
+                                        className: "main-stat",
+                                        children: "4"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 44,
+                                        lineNumber: 43,
                                         columnNumber: 67
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 44,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30731,16 +30913,16 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 0.8 )"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 46,
+                                                lineNumber: 45,
                                                 columnNumber: 62
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 46,
+                                        lineNumber: 45,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30748,28 +30930,28 @@ const AllTimeStats = ()=>{
                                         children: [
                                             "+",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
+                                                children: "3.2"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 47,
+                                                lineNumber: 46,
                                                 columnNumber: 44
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 47,
+                                        lineNumber: 46,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 45,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 43,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30780,16 +30962,17 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Avg. Finish: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "44"
+                                        className: "main-stat",
+                                        children: "4"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 51,
+                                        lineNumber: 50,
                                         columnNumber: 67
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 51,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30801,45 +30984,45 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 6 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 52,
+                                                columnNumber: 64
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                        lineNumber: 52,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential",
+                                        children: [
+                                            "-",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "2"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 53,
-                                                columnNumber: 64
+                                                columnNumber: 46
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 53,
                                         columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
-                                            }, void 0, false, {
-                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 54,
-                                                columnNumber: 46
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 54,
-                                        columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 52,
+                                lineNumber: 51,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 50,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30850,16 +31033,17 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Last Places: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: "44"
+                                        className: "main-stat",
+                                        children: "1"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 58,
+                                        lineNumber: 57,
                                         columnNumber: 67
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 58,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30871,16 +31055,16 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 0.8 )"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 60,
+                                                lineNumber: 59,
                                                 columnNumber: 64
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 60,
+                                        lineNumber: 59,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30891,25 +31075,25 @@ const AllTimeStats = ()=>{
                                                 children: "14.3"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 61,
+                                                lineNumber: 60,
                                                 columnNumber: 46
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 61,
+                                        lineNumber: 60,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 59,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 57,
+                        lineNumber: 56,
                         columnNumber: 11
                     }, undefined)
                 ]
@@ -30929,17 +31113,17 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Lucky W's: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "wins",
-                                        children: "444"
+                                        className: "main-stat",
+                                        children: "12"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 67,
+                                        lineNumber: 66,
                                         columnNumber: 61
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 67,
+                                lineNumber: 66,
                                 columnNumber: 7
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30951,45 +31135,45 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 3 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 68,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                        lineNumber: 68,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential red",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "9"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 69,
-                                                columnNumber: 62
+                                                columnNumber: 48
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 69,
                                         columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
-                                            }, void 0, false, {
-                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 70,
-                                                columnNumber: 44
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 70,
-                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 68,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 66,
+                        lineNumber: 65,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31000,17 +31184,17 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Unlucky L's ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "losses",
-                                        children: "444"
+                                        className: "main-stat",
+                                        children: "4"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 73,
                                         columnNumber: 64
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 74,
+                                lineNumber: 73,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31022,45 +31206,45 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 8 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 75,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                        lineNumber: 75,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential red",
+                                        children: [
+                                            "-",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "4"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 76,
-                                                columnNumber: 62
+                                                columnNumber: 48
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 76,
                                         columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
-                                            }, void 0, false, {
-                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 77,
-                                                columnNumber: 44
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 77,
-                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 75,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 73,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31071,17 +31255,17 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Close W's: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "wins",
-                                        children: "444"
+                                        className: "main-stat",
+                                        children: "8"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 81,
+                                        lineNumber: 80,
                                         columnNumber: 63
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 81,
+                                lineNumber: 80,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31093,45 +31277,45 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 6 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 82,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                        lineNumber: 82,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential green",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "2"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 83,
-                                                columnNumber: 62
+                                                columnNumber: 50
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 83,
                                         columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
-                                            }, void 0, false, {
-                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 84,
-                                                columnNumber: 44
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 84,
-                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 82,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 80,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31142,17 +31326,17 @@ const AllTimeStats = ()=>{
                                 children: [
                                     "Close L's: ",
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "losses",
-                                        children: "444"
+                                        className: "main-stat",
+                                        children: "7"
                                     }, void 0, false, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 88,
+                                        lineNumber: 87,
                                         columnNumber: 63
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 88,
+                                lineNumber: 87,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31164,16 +31348,16 @@ const AllTimeStats = ()=>{
                                             "LG Avg. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "la-stat",
-                                                children: "444.44"
+                                                children: "( 4 )"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 90,
+                                                lineNumber: 89,
                                                 columnNumber: 62
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 90,
+                                        lineNumber: 89,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -31181,34 +31365,34 @@ const AllTimeStats = ()=>{
                                         children: [
                                             "+",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
+                                                children: "3"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 91,
+                                                lineNumber: 90,
                                                 columnNumber: 44
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 91,
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 89,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 87,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                lineNumber: 65,
+                lineNumber: 64,
                 columnNumber: 7
             }, undefined)
         ]
@@ -31246,15 +31430,69 @@ const CurrentSeasonStats = ()=>{
                 className: "changed-stats-col",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Change PF: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: "444.44"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Average PF: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "106.5"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 6,
+                                        columnNumber: 66
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 5,
-                                columnNumber: 63
+                                lineNumber: 6,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 118.2 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 8,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 8,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential green",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "14.3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 9,
+                                                columnNumber: 50
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 9,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 7,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
@@ -31263,56 +31501,216 @@ const CurrentSeasonStats = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Average PA: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: "444.44"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Average PA: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "152.9"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 13,
+                                        columnNumber: 64
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 6,
-                                columnNumber: 64
+                                lineNumber: 13,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 122.9 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 15,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 15,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential red",
+                                        children: [
+                                            "-",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "44.3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 16,
+                                                columnNumber: 48
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 16,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 14,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 6,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Wins: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "wins",
-                                children: "4444"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Wins: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "2"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 20,
+                                        columnNumber: 58
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 7,
-                                columnNumber: 58
+                                lineNumber: 20,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 57 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 22,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 22,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "38"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 23,
+                                                columnNumber: 44
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 23,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 21,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 7,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Losses: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "losses",
-                                children: "4444"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Losses: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "0"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 27,
+                                        columnNumber: 60
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 8,
-                                columnNumber: 60
+                                lineNumber: 27,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 28 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 29,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 29,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential red",
+                                        children: [
+                                            "-",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "4"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 30,
+                                                columnNumber: 48
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 30,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 28,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 8,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -31322,160 +31720,589 @@ const CurrentSeasonStats = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "changed-stats-col",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Playoff Rate: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: "44.4"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Points LOB: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "85.2"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 36,
+                                        columnNumber: 66
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 11,
-                                columnNumber: 66
+                                lineNumber: 36,
+                                columnNumber: 11
                             }, undefined),
-                            "%"
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
-                        children: [
-                            "Finals Apps: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: "44"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 30.4 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 38,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 38,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "23.7"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 39,
+                                                columnNumber: 44
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 39,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 12,
-                                columnNumber: 65
+                                lineNumber: 37,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 12,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Avg. Finish: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: "44"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Weeks Top 5 Out: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "4"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 45,
+                                        columnNumber: 71
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 13,
-                                columnNumber: 65
+                                lineNumber: 45,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 0.8 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 47,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 47,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "3.2"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 48,
+                                                columnNumber: 44
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 48,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 46,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 13,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Last Places: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                children: "44"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Total PF: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "302.5"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 52,
+                                        columnNumber: 64
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 14,
-                                columnNumber: 65
+                                lineNumber: 52,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 256.2 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 54,
+                                                columnNumber: 64
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 54,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "46.8"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 55,
+                                                columnNumber: 46
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 55,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 53,
+                                columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 14,
-                        columnNumber: 9
+                        lineNumber: 51,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "stat-group",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Total PA: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "233.8"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 59,
+                                        columnNumber: 64
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 59,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 241.8 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 61,
+                                                columnNumber: 64
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 61,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "14.3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 62,
+                                                columnNumber: 46
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 62,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 60,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                        lineNumber: 58,
+                        columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                lineNumber: 10,
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "changed-stats-col",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Lucky W's: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "wins",
-                                children: "444"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Lucky W's: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "1"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 68,
+                                        columnNumber: 61
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 17,
-                                columnNumber: 63
+                                lineNumber: 68,
+                                columnNumber: 7
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 2 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 70,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 70,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential red",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "9"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 71,
+                                                columnNumber: 48
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 71,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 69,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 17,
+                        lineNumber: 67,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "stat-group",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Unlucky L's ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "0"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 75,
+                                        columnNumber: 64
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 75,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 1 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 77,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 77,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential red",
+                                        children: [
+                                            "-",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "4"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 78,
+                                                columnNumber: 48
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 78,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 76,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                        lineNumber: 74,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Unlucky L's ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "losses",
-                                children: "444"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Close W's: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "1"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 82,
+                                        columnNumber: 63
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 18,
-                                columnNumber: 64
+                                lineNumber: 82,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 1 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 84,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 84,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential green",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "2"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 85,
+                                                columnNumber: 50
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 85,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 83,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 18,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
+                        className: "stat-group",
                         children: [
-                            "Close W's: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "wins",
-                                children: "444"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stats-col-stat text-muted",
+                                children: [
+                                    "Close L's: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "main-stat",
+                                        children: "0"
+                                    }, void 0, false, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 89,
+                                        columnNumber: 63
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 19,
-                                columnNumber: 63
+                                lineNumber: 89,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "la-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-la text-muted",
+                                        children: [
+                                            "LG Avg. ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "la-stat",
+                                                children: "( 1 )"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 91,
+                                                columnNumber: 62
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 91,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "differential",
+                                        children: [
+                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                children: "3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 92,
+                                                columnNumber: 44
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 92,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 90,
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stats-col-stat text-muted",
-                        children: [
-                            "Close L's: ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "losses",
-                                children: "444"
-                            }, void 0, false, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 20,
-                                columnNumber: 63
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 20,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                lineNumber: 16,
+                lineNumber: 66,
                 columnNumber: 7
             }, undefined)
         ]

@@ -35,20 +35,36 @@ export const OwnerCard = ({ owner, year, setYear, timeFrame, setTimeFrame }) => 
             <img src="https://via.placeholder.com/50" alt="" />
           </div>
           <div className="perm-stats-left">
-            <p className="perm-top">Seasons: <span>44</span></p>
-            <p className="perm-bottom text-muted">Playoff Apps: <span>44</span></p>
+            <p className="perm-top">Seasons: <span className="main-stat">9</span></p>
+            <div className="la-group perm-group">
+              <div className="stats-col-la text-muted">LG Avg. <span className="la-stat">( 5 )</span></div>
+              <div className="differential green">+<span>4</span></div>
+            </div>
+            <p className="perm-bottom">Playoff Apps: <span className="main-stat">5</span></p>
+            <div className="la-group perm-group">
+              <div className="stats-col-la text-muted">LG Avg. <span className="la-stat">( 3.3 )</span></div>
+              <div className="differential green">+<span>1.7</span></div>
+            </div>
           </div>
           <div className="perm-stats-right">
-            <p className="perm-top">Championships: <span className="gold">44</span></p>
-            <p className="perm-bottom text-muted">Winning Pct: <span>{calcWinPercentage(owner)}%</span></p>
+            <p className="perm-top">Championships: <span className="gold">3</span></p>
+            <div className="la-group perm-group">
+              <div className="stats-col-la text-muted">LG Avg. <span className="la-stat">( 0.4 )</span></div>
+              <div className="differential green">+<span>2.8</span></div>
+            </div>
+            <p className="perm-bottom">Winning Pct: <span className="main-stat">{calcWinPercentage(owner)}%</span></p>
+            <div className="la-group perm-group">
+              <div className="stats-col-la text-muted">LG Avg. <span className="la-stat">( 51.5% )</span></div>
+              <div className="differential green">+<span>27.1%</span></div>
+            </div>
           </div>
         </div>
         <div className="change-stats">
-          {(timeFrame === "All-Time") ? <AllTimeStats/> : <CurrentSeasonStats />}
+          {(timeFrame === "All-Time") ? <AllTimeStats /> : <CurrentSeasonStats />}
         </div>
       </Card.Body>
       <Card.Footer>
-        <Button className="card-footer-button">Click to view stats breakdown <span className="hi-there">▼</span></Button>
+        <Button className="card-footer-button">Click to view advanced stats breakdown <span className="hi-there">▼</span></Button>
       </Card.Footer>
     </Card>
 
