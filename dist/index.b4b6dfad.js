@@ -27173,6 +27173,18 @@ const MainView = ()=>{
                 wins: 9,
                 losses: 5
             }
+        },
+        {
+            id: 2,
+            ownerName: "Dominic Nocito",
+            2014: {
+                wins: 3,
+                losses: 11
+            },
+            2015: {
+                wins: 10,
+                losses: 4
+            }
         }
     ]);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27194,7 +27206,7 @@ const MainView = ()=>{
         columnNumber: 5
     }, undefined);
 };
-_s(MainView, "36KSQ8uHgYXtqXVqrAzlXfyvcko=");
+_s(MainView, "1RISC8Tco9+oX5guFoxz5ON5uXo=");
 _c = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");

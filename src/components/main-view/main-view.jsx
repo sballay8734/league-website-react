@@ -19,20 +19,20 @@ export const MainView = () => {
           losses: 5
         }
     },
-    // {
-    //   id: 2,
-    //   ownerName: "Dominic Nocito",
-    //   2014: 
-    //     {
-    //       wins: 3,
-    //       losses: 11
-    //     },
-    //   2015: 
-    //     {
-    //       wins: 10,
-    //       losses: 4
-    //     }
-    // },
+    {
+      id: 2,
+      ownerName: "Dominic Nocito",
+      2014: 
+        {
+          wins: 3,
+          losses: 11
+        },
+      2015: 
+        {
+          wins: 10,
+          losses: 4
+        }
+    },
     // {
     //   id: 3,
     //   ownerName: "Steven Smith",
