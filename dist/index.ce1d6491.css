@@ -12204,8 +12204,8 @@ p {
 
 .new-card {
   width: 300px;
-  border-color: #0d6efd;
-  box-shadow: 0 3px 8px #0000003d;
+  border: #0d6efd;
+  box-shadow: 0 1px 2px #3c40434d, 0 2px 6px 2px #3c404326;
 }
 
 .card-title {
@@ -12216,12 +12216,13 @@ p {
 
 .card-image img {
   border-radius: 10rem;
+  box-shadow: 0 1px 2px #3c40434d, 0 2px 6px 2px #3c404326;
 }
 
 .nav-link {
   margin: 0;
   padding: .25rem .5rem;
-  font-size: .5rem;
+  font-size: .55rem;
 }
 
 .header {
@@ -12229,7 +12230,7 @@ p {
 }
 
 .card-body {
-  padding: .75rem 1rem;
+  padding: .75rem 1rem .5rem;
 }
 
 .flex {
@@ -12266,8 +12267,29 @@ p {
   font-size: .5rem;
 }
 
-.stats-col-stat:not(:last-child) {
-  padding-bottom: .4rem;
+.stats-col-la {
+  font-size: .35rem;
+}
+
+.la-stat {
+  font-weight: 400;
+}
+
+.la-group {
+  justify-content: space-between;
+  display: flex;
+}
+
+.differential {
+  color: #009700;
+  font-size: .35rem;
+}
+
+.stat-group:not(:last-child) {
+  text-align: left;
+  flex-direction: column;
+  padding-bottom: .5rem;
+  display: flex;
 }
 
 .stats-col-stat span {
@@ -12283,7 +12305,7 @@ p {
   color: #009700;
 }
 
-.losses {
+.losses, .red {
   color: #b10000;
 }
 

@@ -3,6 +3,7 @@ import { OwnerCard } from "../owner-card/owner-card"
 
 export const MainView = () => {
   const [year, setYear] = useState(2014);
+  const [timeFrame, setTimeFrame] = useState("All-Time");
   const [owners, updateOwners] = useState([
     {
       id: 1,
@@ -181,7 +182,9 @@ export const MainView = () => {
           key={owner.id}
           owner={owner}
           year={year}
-          setYear={setYear} />
+          setYear={setYear}
+          timeFrame={timeFrame}
+          setTimeFrame={setTimeFrame} />
       ))}
     </div>
   )

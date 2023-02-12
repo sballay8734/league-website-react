@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import { AllTimeStats } from '../alltime-stats/alltime-stats';
 import { CurrentSeasonStats } from '../current-season-stats/current-season-stats';
 
-export const OwnerCard = ({ owner, year, setYear }) => {
+export const OwnerCard = ({ owner, year, setYear, timeFrame, setTimeFrame }) => {
 
   // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   function calcWinPercentage(owner) {
@@ -20,10 +20,10 @@ export const OwnerCard = ({ owner, year, setYear }) => {
         <Card.Title className="card-title">{owner.ownerName}</Card.Title>
         <Nav variant="pills" defaultActiveKey="#first" className="flex">
           <Nav.Item className="flex">
-            <Nav.Link className="nav-link" href="#first">All-Time</Nav.Link>
+            <Nav.Link className="nav-link" href="#first" onClick={(event) => {setTimeFrame("All-Time"); event.preventDefault()}}>All-Time</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link className="nav-link" href="link">Current Season</Nav.Link>
+            <Nav.Link className="nav-link" href="link" onClick={(event) => {setTimeFrame("Current Season"); event.preventDefault()}}>Current Season</Nav.Link>
           </Nav.Item>
         </Nav>
       </Card.Header>
@@ -44,7 +44,7 @@ export const OwnerCard = ({ owner, year, setYear }) => {
           </div>
         </div>
         <div className="change-stats">
-          <AllTimeStats />
+          {(timeFrame === "All-Time") ? <AllTimeStats/> : <CurrentSeasonStats />}
         </div>
       </Card.Body>
       <Card.Footer>

@@ -225,8 +225,9 @@ p {
 
 .new-card {
   width: 300px;
+  border: none;
   border-color: $primary;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   // border: 1px solid red;
 }
 
@@ -238,10 +239,11 @@ p {
 
 .card-image img {
   border-radius: 10rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .nav-link {
-  font-size: .5rem;
+  font-size: .55rem;
   padding: .25rem .50rem;
   margin: 0;
 }
@@ -255,7 +257,7 @@ p {
 .card-body {
   padding: 1rem;
   padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-bottom: .5rem;
 }
 
 .flex {
@@ -292,8 +294,30 @@ p {
   font-size: .50rem;
 }
 
-.stats-col-stat:not(:last-child) {
-  padding-bottom: .4rem;
+.stats-col-la {
+  font-size: .35rem;
+}
+
+.la-stat {
+  font-weight: 400;
+  // color: $primary;
+}
+
+.la-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.differential {
+  font-size: .35rem;
+  color:rgb(0, 151, 0)
+}
+
+.stat-group:not(:last-child) {
+  padding-bottom: .5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .stats-col-stat span {
@@ -309,7 +333,8 @@ p {
   color: rgb(0, 151, 0);
 }
 
-.losses {
+.losses,
+.red {
   color: rgb(177, 0, 0);
 }
 
@@ -330,3 +355,5 @@ p {
   padding-top: .2rem;
   padding-bottom: .2rem;
 }
+
+// Gold stats mean you lead the league in that category
