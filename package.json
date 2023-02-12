@@ -16,8 +16,10 @@
   },
   "homepage": "https://github.com/sballay8734/league-website-react#readme",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "parcel": "^2.8.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.1",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
