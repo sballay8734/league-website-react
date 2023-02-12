@@ -15,74 +15,162 @@ export const MainView = () => {
       2015: 
         {
           wins: 9,
-          losses: 6
+          losses: 5
         }
     },
     // {
     //   id: 2,
     //   ownerName: "Dominic Nocito",
-    //   wins: 8,
-    //   losses: 6
+    //   2014: 
+    //     {
+    //       wins: 3,
+    //       losses: 11
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 10,
+    //       losses: 4
+    //     }
     // },
     // {
     //   id: 3,
     //   ownerName: "Steven Smith",
-    //   wins: 8,
-    //   losses: 6
+    //   2014: 
+    //     {
+    //       wins: 5,
+    //       losses: 9
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 13,
+    //       losses: 1
+    //     }
     // },
     // {
     //   id: 4,
     //   ownerName: "Joe Kane",
-    //   wins: 7,
-    //   losses: 7
+    //   2014: 
+    //     {
+    //       wins: 1,
+    //       losses: 13
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 7,
+    //       losses: 7
+    //     }
     // },
     // {
     //   id: 5,
     //   ownerName: "Stephen Lloyd",
-    //   wins: 8,
-    //   losses: 6
+    //   2014: 
+    //     {
+    //       wins: 12,
+    //       losses: 2
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 8,
+    //       losses: 6
+    //     }
     // },
     // {
     //   id: 6,
     //   ownerName: "Cody Zwier",
-    //   wins: 7,
-    //   losses: 7
+    //   2014: 
+    //     {
+    //       wins: 6,
+    //       losses: 8
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 9,
+    //       losses: 5
+    //     }
     // },
     // {
     //   id: 7,
     //   ownerName: "Dominic DiFilippo",
-    //   wins: 7,
-    //   losses: 7
+    //   2014: 
+    //     {
+    //       wins: 3,
+    //       losses: 11
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 10,
+    //       losses: 4
+    //     }
     // },
     // {
     //   id: 8,
     //   ownerName: "Jimmy Wagner",
-    //   wins: 6,
-    //   losses: 8
+    //   2014: 
+    //     {
+    //       wins: 10,
+    //       losses: 4
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 9,
+    //       losses: 6
+    //     }
     // },
     // {
     //   id: 9,
     //   ownerName: "Dan George",
-    //   wins: 6,
-    //   losses: 8
+    //   2014: 
+    //     {
+    //       wins: 11,
+    //       losses: 3
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 6,
+    //       losses: 8
+    //     }
     // },
     // {
     //   id: 10,
     //   ownerName: "Aaron MacKenzie",
-    //   wins: 6,
-    //   losses: 8
+    //   2014: 
+    //     {
+    //       wins: 3,
+    //       losses: 11
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 6,
+    //       losses: 8
+    //     }
     // },
     // {
     //   id: 11,
     //   ownerName: "Dante Nocito",
-    //   wins: 5,
-    //   losses: 9
+    //   2014: 
+    //     {
+    //       wins: 5,
+    //       losses: 9
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 9,
+    //       losses: 5
+    //     }
     // },
     // {
     //   id: 12,
     //   ownerName: "Don Irons",
-    //   wins: 5,
-    //   losses: 9
+    //   2014: 
+    //     {
+    //       wins: 7,
+    //       losses: 7
+    //     },
+    //   2015: 
+    //     {
+    //       wins: 12,
+    //       losses: 2
+    //     }
     // }
   ])
 
