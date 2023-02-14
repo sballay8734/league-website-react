@@ -1,3 +1,6 @@
+AVERAGE POINTS PER WIN
+AVERAGE POINTS PER LOSS
+
 Head to head module
 King of the hill module
 Input data into database
