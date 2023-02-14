@@ -7,7 +7,7 @@ let teamsObject = [
       wins: 11,
       losses: 3,
       pointsFor: {
-        weekOne: 123.14,
+        weekOne: 123.14, // Might have to make this an object like so: weekOne: {pointsFor: 123.14, pointsAgainst: 129.39, opponent: "shawnB"}
         weekTwo: 129.21,
         weekThree: 102.10
         // total: 

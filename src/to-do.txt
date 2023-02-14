@@ -2,3 +2,8 @@ Head to head module
 King of the hill module
 Input data into database
 Get Memoji's from league members
+Add a chart (Line graph) that shows placement by year, points for by year, points against by year, etc etc.
+
+
+
+*** Might have to store data by week like this: weekOne: {pointsFor: 133.38, pointsAgainst: 128.39, opponent: "steveS"}
