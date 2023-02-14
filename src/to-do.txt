@@ -2,7 +2,7 @@ Head to head module
 King of the hill module
 Input data into database
 Get Memoji's from league members
-Add a chart (Line graph) that shows placement by year, points for by year, points against by year, etc etc.
+Add a chart (Line graph) that shows placement by year, points for by year, points against by year, etc etc. (Also have league average line for reference)
 
 
 
