@@ -8,5 +8,6 @@ Add a chart (Line graph) that shows placement by year, points for by year, point
 Most points scored in a single week (182) for you
 Least points scored in a single week 
 
+Most points scored that resulted in a loss (2018 week 6: Lloyd - 162)
 
 *** Might have to store data by week like this: weekOne: {pointsFor: 133.38, pointsAgainst: 128.39, opponent: "steveS"}
