@@ -1,36 +1,38 @@
-// NEED TO ADD STRIKES TO OBJECTS TO TRACK KING OF THE HILL
+// NEED TO declare like this in case someone wants their name changed
+const shawnB = "Shawn Ballay";
+const steveS = "Steve Smith";
+const domN = "Dominic Nocito";
+const donI = "Donnie Irons";
+
+function calcTotalPF(owner, year) {
+
+}
 
 let teamsObject = [
   {
-    ownerName: "shawnB",
+    ownerName: "Shawn Ballay",
     2014: {
+      participated: true,
       wins: 11,
       losses: 3,
-      pointsFor: {
-        weekOne: 123.14, // Might have to make this an object like so: weekOne: {pointsFor: 123.14, pointsAgainst: 129.39, opponent: "shawnB"}
-        weekTwo: 129.21,
-        weekThree: 102.10
-        // total: 
+      ties: 0,
+      regularSeason: {
+        weekOne: {pointsFor: 123.14, pointsAgainst: 129.39, opponent: steveS},
+        weekTwo: {pointsFor: 111.41, pointsAgainst: 164.81, opponent: domN},
+        weekThree: {pointsFor: 137.14, pointsAgainst: 101.20, opponent: donI},
       },
-      pointsAgainst: {
-        weekOne: 120.12,
-        weekTwo: 87.09,
-        weekThree: 98.21
+      playoffs: {
+        roundOne: {participated: true, pointsFor: 129.32, pointsAgainst: 139.39, opponent: "Don Irons"}
       },
       strikes: 0
     },
     2015: {
       wins: 11,
       losses: 3,
-      pointsFor: {
-        weekOne: 123.14,
-        weekTwo: 129.21,
-        weekThree: 102.10
-      },
-      pointsAgainst: {
-        weekOne: 120.12,
-        weekTwo: 87.09,
-        weekThree: 98.21
+      regularSeason: {
+        weekOne: {pointsFor: 163.14, pointsAgainst: 119.39, opponent: steveS},
+        weekTwo: {pointsFor: 161.41, pointsAgainst: 161.81, opponent: domN},
+        weekThree: {pointsFor: 167.14, pointsAgainst: 111.20, opponent: donI},
       },
       strikes: 0
     },
@@ -75,14 +77,14 @@ function calcYearlyTotalPointsFor(owner, year) {
   owner = teamsObject.find(item => item.ownerName);
   let totalPointsFor = 0;
 
-  let keys = Object.keys(owner[year].pointsFor);
+  let keys = Object.keys(owner[year].regularSeason);
   keys.forEach((key, index) => {
-    totalPointsFor += owner[year].pointsFor[key]
+    totalPointsFor += owner[year].regularSeason[key].pointsFor
   });
 
   return totalPointsFor.toFixed(2);
 }
-// console.log(calcYearlyTotalPointsFor("shawnB", 2014));
+console.log(calcYearlyTotalPointsFor(shawnB, 2014));
 
 // THIS WORKS!!!!!! ************************************************************
 // calculate total points against BY YEAR
@@ -90,14 +92,14 @@ function calcYearlyTotalPointsAgainst(owner, year) {
   owner = teamsObject.find(item => item.ownerName);
   let totalPointsAgainst = 0;
 
-  let keys = Object.keys(owner[year].pointsAgainst);
+  let keys = Object.keys(owner[year].regularSeason);
   keys.forEach((key, index) => {
-    totalPointsAgainst += owner[year].pointsAgainst[key]
+    totalPointsAgainst += owner[year].regularSeason[key].pointsAgainst
   });
 
   return totalPointsAgainst.toFixed(2);
 }
-console.log(calcYearlyTotalPointsAgainst("steveS", 2014));
+console.log(calcYearlyTotalPointsAgainst(shawnB, 2014));
 
 
 // THIS WORKS TOO HOLY SHIT!!!! ************************************************
@@ -110,43 +112,11 @@ function calcAllTimePointsFor(owner) {
   let filteredYearKeys = yearKeys.filter((e) => e !== "ownerName")
 
   filteredYearKeys.forEach((year) => {
-    let pointsKeys = Object.keys(owner[year].pointsFor);
+    let pointsKeys = Object.keys(owner[year].regularSeason);
     pointsKeys.forEach((key, index) => {
-      totalPointsFor += owner[year].pointsFor[key]
+      totalPointsFor += owner[year].regularSeason[key].pointsFor
     });
   })
   return totalPointsFor.toFixed(2);
 }
-console.log(calcAllTimePointsFor("shawnB"))
-
-
-
-// THIS WORKS TOO WOWWWWWW
-// Finds low scores. You decide how many to find (bottom 4, 3 or 2... etc);
-let weekOneScores = {
-  "shawnB": 123.20,
-  "steveS": 145.29,
-  "donnieI": 109.38,
-  "aaronM": 97.29
-}
-
-function whoGetsStrike(object, strikesToGive) {
-  let strikes = strikesToGive;
-  let iterations = 0;
-  let giveTo = []
-  while (iterations < strikes) {
-    let arr = Object.values(weekOneScores);
-    let min = Math.min(...arr);
-    let itemToPush = Object.keys(object).find((key) => object[key] === min)
-
-    giveTo.push(itemToPush);
-    delete object[itemToPush];
-
-    iterations += 1;
-  }
-
-  return giveTo;
-}
-console.log(whoGetsStrike(weekOneScores, 2))
-
-
+console.log(calcAllTimePointsFor(shawnB))
