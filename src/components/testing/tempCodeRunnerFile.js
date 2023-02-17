@@ -1,16 +1,12 @@
-// NEED TO declare like this in case someone wants their name changed
+// NEED TO declare names like this in case someone wants their name changed
 const shawnB = "Shawn Ballay";
 const steveS = "Steve Smith";
 const domN = "Dominic Nocito";
 const donI = "Donnie Irons";
 
-function calcTotalPF(owner, year) {
-
-}
-
 let teamsObject = [
   {
-    ownerName: "Shawn Ballay",
+    ownerName: shawnB,
     2014: {
       participated: true,
       wins: 11,
@@ -29,6 +25,7 @@ let teamsObject = [
     2015: {
       wins: 11,
       losses: 3,
+      ties: 0,
       regularSeason: {
         weekOne: {pointsFor: 163.14, pointsAgainst: 119.39, opponent: steveS},
         weekTwo: {pointsFor: 161.41, pointsAgainst: 161.81, opponent: domN},
@@ -38,35 +35,33 @@ let teamsObject = [
     },
   },
   {
-    ownerName: "steveS",
+    ownerName: steveS,
     2014: {
-      wins: 9,
-      losses: 5,
-      pointsFor: {
-        weekOne: 162.14,
-        weekTwo: 139.21,
-        weekThree: 112.10
+      participated: true,
+      wins: 11,
+      losses: 3,
+      ties: 0,
+      regularSeason: {
+        weekOne: {pointsFor: 193.64, pointsAgainst: 199.69, opponent: steveS},
+        weekTwo: {pointsFor: 129.46, pointsAgainst: 169.86, opponent: domN},
+        weekThree: {pointsFor: 169.16, pointsAgainst: 109.26, opponent: donI},
       },
-      pointsAgainst: {
-        weekOne: 100.12,
-        weekTwo: 97.09,
-        weekThree: 108.21
-      }
+      playoffs: {
+        roundOne: {participated: true, pointsFor: 129.32, pointsAgainst: 139.39, opponent: "Don Irons"}
+      },
+      strikes: 0
     },
     2015: {
       wins: 11,
       losses: 3,
-      pointsFor: {
-        weekOne: 123.14,
-        weekTwo: 129.21,
-        weekThree: 102.10
+      ties: 0,
+      regularSeason: {
+        weekOne: {pointsFor: 143.14, pointsAgainst: 119.39, opponent: steveS},
+        weekTwo: {pointsFor: 111.41, pointsAgainst: 161.81, opponent: domN},
+        weekThree: {pointsFor: 137.14, pointsAgainst: 111.20, opponent: donI},
       },
-      pointsAgainst: {
-        weekOne: 125.12,
-        weekTwo: 77.09,
-        weekThree: 88.21
-      }
-    }
+      strikes: 0
+    },
   }
 ]
 
@@ -74,47 +69,56 @@ let teamsObject = [
 // THIS WORKS!!!!!! ************************************************************
 // calculate total points for BY YEAR
 function calcYearlyTotalPointsFor(owner, year) {
-  owner = teamsObject.find(item => item.ownerName);
+  currentOwner = teamsObject.find(item => item.ownerName === owner);
   let totalPointsFor = 0;
 
-  let keys = Object.keys(owner[year].regularSeason);
+  let keys = Object.keys(currentOwner[year].regularSeason);
   keys.forEach((key, index) => {
-    totalPointsFor += owner[year].regularSeason[key].pointsFor
+    totalPointsFor += currentOwner[year].regularSeason[key].pointsFor
   });
 
   return totalPointsFor.toFixed(2);
 }
-console.log(calcYearlyTotalPointsFor(shawnB, 2014));
+console.log(calcYearlyTotalPointsFor(steveS, 2014));
+
+
+function calculateAvgYearlyPointsFor(owner, year) {
+  currentOwner = teamsObject.find(item => item.ownerName === owner);
+  let keys = Object.keys(currentOwner[year].regularSeason);
+
+  return (calcYearlyTotalPointsFor(owner, year) / keys.length).toFixed(2)
+}
+console.log(calculateAvgYearlyPointsFor(steveS, 2014))
 
 // THIS WORKS!!!!!! ************************************************************
 // calculate total points against BY YEAR
 function calcYearlyTotalPointsAgainst(owner, year) {
-  owner = teamsObject.find(item => item.ownerName);
+  currentOwner = teamsObject.find(item => item.ownerName === owner);
   let totalPointsAgainst = 0;
 
-  let keys = Object.keys(owner[year].regularSeason);
+  let keys = Object.keys(currentOwner[year].regularSeason);
   keys.forEach((key, index) => {
-    totalPointsAgainst += owner[year].regularSeason[key].pointsAgainst
+    totalPointsAgainst += currentOwner[year].regularSeason[key].pointsAgainst
   });
 
   return totalPointsAgainst.toFixed(2);
 }
-console.log(calcYearlyTotalPointsAgainst(shawnB, 2014));
+console.log(calcYearlyTotalPointsAgainst(steveS, 2014));
 
 
 // THIS WORKS TOO HOLY SHIT!!!! ************************************************
 // calculate total points for ALL TIME
 function calcAllTimePointsFor(owner) {
-  owner = teamsObject.find(item => item.ownerName);
+  currentOwner = teamsObject.find(item => item.ownerName === owner);
   let totalPointsFor = 0;
 
-  let yearKeys = Object.keys(owner);
+  let yearKeys = Object.keys(currentOwner);
   let filteredYearKeys = yearKeys.filter((e) => e !== "ownerName")
 
   filteredYearKeys.forEach((year) => {
-    let pointsKeys = Object.keys(owner[year].regularSeason);
+    let pointsKeys = Object.keys(currentOwner[year].regularSeason);
     pointsKeys.forEach((key, index) => {
-      totalPointsFor += owner[year].regularSeason[key].pointsFor
+      totalPointsFor += currentOwner[year].regularSeason[key].pointsFor
     });
   })
   return totalPointsFor.toFixed(2);
