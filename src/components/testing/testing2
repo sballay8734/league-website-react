@@ -20,16 +20,16 @@ let teamsList = [
       "playoffCloseGameLosses": 0, // Calculated
       "finishPlace": 1,
       "kothFinishingPlace": 1,
-      "madePlayoffs": true,
-      "playoffBye": true,
-      "playoffWins": 2,
-      "playoffLosses": 0,
-      "madeFinals": true,
-      "finishedLast": false,
-      "rosterMoves": 35,
-      "pointsLeftOnBench": null,
-      "unluckyLosses": 0,
-      "luckyWins": 2,
+      "madePlayoffs": true, // Calculated (if not null)
+      "playoffBye": true, // Calculated
+      "playoffWins": 2, // Calculated
+      "playoffLosses": 0, // Calculated
+      "madeFinals": true, // Calculated (if not null)
+      "finishedLast": false, 
+      "rosterMoves": 35, // Drop this
+      "pointsLeftOnBench": null, 
+      "unluckyLosses": 0, // Calculated
+      "luckyWins": 2, // Calculated
       "goodStarts": null,
       "badStarts": null
     },
