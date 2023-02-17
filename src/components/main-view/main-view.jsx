@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { OwnerCard } from "../owner-card/owner-card"
+import { OwnerCard } from "../owner-card/owner-card";
+import { BrowserRouter, Link, Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
+import { KingOfTheHill } from "../king-of-the-hill/king-of-the-hill";
 
 export const MainView = () => {
   const [year, setYear] = useState(2014);
@@ -176,16 +179,33 @@ export const MainView = () => {
   ])
 
   return (
-    <div className="grid">
-      {owners.map((owner) => (
-        <OwnerCard
-          key={owner.id}
-          owner={owner}
-          year={year}
-          setYear={setYear}
-          timeFrame={timeFrame}
-          setTimeFrame={setTimeFrame} />
-      ))}
-    </div>
+    <>
+    {/* REDO THIS WITH BOOTSTRAP. JUST TESTING HERE */}
+      <nav class="nav-main">
+        <ul class="nav-flex">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/kingofthehill">King of the Hill</Link></li>
+        </ul>
+      </nav>
+    {/* ****************************** ROUTES ***************************** */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div className="grid">
+              {owners.map((owner) => (
+                <OwnerCard
+                  key={owner.id}
+                  owner={owner}
+                  year={year}
+                  setYear={setYear}
+                  timeFrame={timeFrame}
+                  setTimeFrame={setTimeFrame} />
+              ))}
+            </div>
+          } />
+        <Route path="/kingofthehill" element={<KingOfTheHill />} />
+      </Routes>
+    </>
   )
 }

@@ -24,6 +24,20 @@ body {
   // justify-content: center;
 }
 
+.nav-main {
+  background-color: rgb(255, 255, 173);
+}
+
+.nav-flex {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  text-decoration: none;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+}
+
 .main {
   width: 100%;
   height: 100vh;

@@ -1,12 +1,13 @@
 import { createRoot } from "react-dom/client";
 import { MainView } from "./components/main-view/main-view";
 import "./index.scss";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="main">
+    <BrowserRouter>
       <MainView />
-    </div>
+    </BrowserRouter>
   );
 };
 
