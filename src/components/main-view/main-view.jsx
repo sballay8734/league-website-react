@@ -1,12 +1,11 @@
-import { useState } from "react";
-import { OwnerCard } from "../owner-card/owner-card";
-import { BrowserRouter, Link, Routes } from "react-router-dom";
+import { useState } from 'react';
+import { OwnerCard } from '../owner-card/owner-card';
+import { BrowserRouter, Link, Routes } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
-import { KingOfTheHill } from "../king-of-the-hill/king-of-the-hill";
+import { KingOfTheHill } from '../king-of-the-hill/king-of-the-hill';
 
 export const MainView = () => {
   const [year, setYear] = useState(2014);
-  const [timeFrame, setTimeFrame] = useState("All-Time");
   const [owners, updateOwners] = useState([
     {
       id: 1,
@@ -198,9 +197,7 @@ export const MainView = () => {
                   key={owner.id}
                   owner={owner}
                   year={year}
-                  setYear={setYear}
-                  timeFrame={timeFrame}
-                  setTimeFrame={setTimeFrame} />
+                  setYear={setYear} />
               ))}
             </div>
           } />

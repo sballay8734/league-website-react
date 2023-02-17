@@ -5,15 +5,18 @@ import { AllTimeStats } from '../alltime-stats/alltime-stats';
 import { CurrentSeasonStats } from '../current-season-stats/current-season-stats';
 import logo from '../../../public/img/shawnB.png';
 import { Route } from 'react-router-dom';
+import { useState } from 'react';
 
-export const OwnerCard = ({ owner, year, setYear, timeFrame, setTimeFrame }) => {
+export const OwnerCard = ({ owner, year, setYear }) => {
 
   // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  function calcWinPercentage(owner) {
+  function calcWinPercentage(owner, year) {
     return ((owner[year].wins / (owner[year].wins + owner[year].losses)) * 100).toFixed(1)
   };
 
   // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  const [timeFrame, setTimeFrame] = useState("All-Time");
 
   return (
     <Card className="new-card">
@@ -54,7 +57,7 @@ export const OwnerCard = ({ owner, year, setYear, timeFrame, setTimeFrame }) => 
               <div className="stats-col-la text-muted">LG Avg. <span className="la-stat">( 0.4 )</span></div>
               <div className="differential green">+<span>2.8</span></div>
             </div>
-            <p className="perm-bottom">Winning Pct: <span className="main-stat">{calcWinPercentage(owner)}%</span></p>
+            <p className="perm-bottom">Winning Pct: <span className="main-stat">{calcWinPercentage(owner, 2014)}%</span></p>
             <div className="la-group perm-group">
               <div className="stats-col-la text-muted">LG Avg. <span className="la-stat">( 51.5% )</span></div>
               <div className="differential green">+<span>27.1%</span></div>
@@ -62,7 +65,7 @@ export const OwnerCard = ({ owner, year, setYear, timeFrame, setTimeFrame }) => 
           </div>
         </div>
         <div className="change-stats">
-          {(timeFrame === "All-Time") ? <AllTimeStats /> : <CurrentSeasonStats />}
+          {(timeFrame === "All-Time") ? <AllTimeStats owner={owner} /> : <CurrentSeasonStats owner={owner} />}
         </div>
       </Card.Body>
       <Card.Footer>

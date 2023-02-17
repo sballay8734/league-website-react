@@ -1,4 +1,14 @@
-export const CurrentSeasonStats = () => {
+export const CurrentSeasonStats = ({ owner }) => {
+
+  // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  function displayWins(owner, year) {
+    return (owner[year].wins)
+  };
+  function displayLosses(owner, year) {
+    return (owner[year].losses)
+  };
+  // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
   return (
     <div className="flex changed-stats current-season">
       <div className="changed-stats-col">
@@ -17,14 +27,14 @@ export const CurrentSeasonStats = () => {
           </div>
         </div>
         <div className="stat-group">
-        <div className="stats-col-stat text-muted">Wins: <span className="main-stat">2</span></div>
+        <div className="stats-col-stat text-muted">Wins: <span className="main-stat">{displayWins(owner, 2014)}</span></div>
           <div className="la-group">
             <div className="stats-col-la text-muted">LG Avg. <span className="la-stat">( 57 )</span></div>
             <div className="differential">+<span>38</span></div>
           </div>
         </div>
         <div className="stat-group">
-        <div className="stats-col-stat text-muted">Losses: <span className="main-stat">0</span></div>
+        <div className="stats-col-stat text-muted">Losses: <span className="main-stat">{displayLosses(owner, 2014)}</span></div>
           <div className="la-group">
             <div className="stats-col-la text-muted">LG Avg. <span className="la-stat">( 28 )</span></div>
             <div className="differential red">-<span>4</span></div>
