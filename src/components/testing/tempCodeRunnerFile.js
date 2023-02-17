@@ -3,6 +3,7 @@ const shawnB = "Shawn Ballay";
 const steveS = "Steve Smith";
 const domN = "Dominic Nocito";
 const donI = "Donnie Irons";
+const danteN = mongoose.find(ownerName, "Dante Nocito"); // JUST AN EXAMPLE
 
 let teamsObject = [
   {
@@ -18,7 +19,7 @@ let teamsObject = [
         weekThree: {pointsFor: 137.14, pointsAgainst: 101.20, opponent: donI},
       },
       playoffs: {
-        roundOne: {participated: true, pointsFor: 129.32, pointsAgainst: 139.39, opponent: "Don Irons"}
+        roundOne: {participated: true, pointsFor: 129.32, pointsAgainst: 139.39, opponent: donI}
       },
       strikes: 0
     },
@@ -80,47 +81,3 @@ function calcYearlyTotalPointsFor(owner, year) {
   return totalPointsFor.toFixed(2);
 }
 console.log(calcYearlyTotalPointsFor(steveS, 2014));
-
-
-function calculateAvgYearlyPointsFor(owner, year) {
-  currentOwner = teamsObject.find(item => item.ownerName === owner);
-  let keys = Object.keys(currentOwner[year].regularSeason);
-
-  return (calcYearlyTotalPointsFor(owner, year) / keys.length).toFixed(2)
-}
-console.log(calculateAvgYearlyPointsFor(steveS, 2014))
-
-// THIS WORKS!!!!!! ************************************************************
-// calculate total points against BY YEAR
-function calcYearlyTotalPointsAgainst(owner, year) {
-  currentOwner = teamsObject.find(item => item.ownerName === owner);
-  let totalPointsAgainst = 0;
-
-  let keys = Object.keys(currentOwner[year].regularSeason);
-  keys.forEach((key, index) => {
-    totalPointsAgainst += currentOwner[year].regularSeason[key].pointsAgainst
-  });
-
-  return totalPointsAgainst.toFixed(2);
-}
-console.log(calcYearlyTotalPointsAgainst(steveS, 2014));
-
-
-// THIS WORKS TOO HOLY SHIT!!!! ************************************************
-// calculate total points for ALL TIME
-function calcAllTimePointsFor(owner) {
-  currentOwner = teamsObject.find(item => item.ownerName === owner);
-  let totalPointsFor = 0;
-
-  let yearKeys = Object.keys(currentOwner);
-  let filteredYearKeys = yearKeys.filter((e) => e !== "ownerName")
-
-  filteredYearKeys.forEach((year) => {
-    let pointsKeys = Object.keys(currentOwner[year].regularSeason);
-    pointsKeys.forEach((key, index) => {
-      totalPointsFor += currentOwner[year].regularSeason[key].pointsFor
-    });
-  })
-  return totalPointsFor.toFixed(2);
-}
-console.log(calcAllTimePointsFor(shawnB))

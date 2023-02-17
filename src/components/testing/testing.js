@@ -3,6 +3,7 @@ const shawnB = "Shawn Ballay";
 const steveS = "Steve Smith";
 const domN = "Dominic Nocito";
 const donI = "Donnie Irons";
+// const danteN = mongoose.find(ownerName, "Dante Nocito"); // JUST AN EXAMPLE
 
 let teamsObject = [
   {
@@ -18,7 +19,7 @@ let teamsObject = [
         weekThree: {pointsFor: 137.14, pointsAgainst: 101.20, opponent: donI},
       },
       playoffs: {
-        roundOne: {participated: true, pointsFor: 129.32, pointsAgainst: 139.39, opponent: "Don Irons"}
+        roundOne: {participated: true, pointsFor: 129.32, pointsAgainst: 139.39, opponent: donI}
       },
       strikes: 0
     },
