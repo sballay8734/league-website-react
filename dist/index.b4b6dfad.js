@@ -30599,896 +30599,908 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AllTimeStats", ()=>AllTimeStats);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const AllTimeStats = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "flex changed-stats",
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "view-test",
+                children: "Stats View - Chart View"
+            }, void 0, false, {
+                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                lineNumber: 4,
+                columnNumber: 5
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "changed-stats-col",
+                className: "flex changed-stats",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
+                        className: "changed-stats-col",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Average PF: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "127.3"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 6,
-                                        columnNumber: 66
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 6,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Average PF: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 118.2 )"
+                                                className: "main-stat",
+                                                children: "127.3"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 8,
-                                                columnNumber: 62
+                                                columnNumber: 66
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 8,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential green",
+                                        className: "la-group",
                                         children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 118.2 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 10,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 9,
-                                                columnNumber: 50
+                                                lineNumber: 10,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential green",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "14.3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 11,
+                                                        columnNumber: 50
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 11,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 9,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 7,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 5,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Average PA: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "125.7"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 13,
-                                        columnNumber: 64
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 13,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Average PA: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 122.9 )"
+                                                className: "main-stat",
+                                                children: "125.7"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 15,
-                                                columnNumber: 62
+                                                columnNumber: 64
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 15,
-                                        columnNumber: 13
+                                        columnNumber: 9
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential red",
+                                        className: "la-group",
                                         children: [
-                                            "-",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "44.3"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 122.9 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 17,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 16,
-                                                columnNumber: 48
+                                                lineNumber: 17,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential red",
+                                                children: [
+                                                    "-",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "44.3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 18,
+                                                        columnNumber: 48
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 18,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 16,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 14,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Wins: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "95"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 20,
-                                        columnNumber: 58
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 20,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Wins: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 57 )"
+                                                className: "main-stat",
+                                                children: "95"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 22,
-                                                columnNumber: 62
+                                                columnNumber: 58
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 22,
-                                        columnNumber: 13
+                                        columnNumber: 9
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
+                                        className: "la-group",
                                         children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "38"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 57 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 24,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 23,
-                                                columnNumber: 44
+                                                lineNumber: 24,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "38"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 25,
+                                                        columnNumber: 44
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 25,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 23,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 21,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Losses: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "32"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 27,
-                                        columnNumber: 60
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 27,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Losses: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 28 )"
+                                                className: "main-stat",
+                                                children: "32"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 29,
-                                                columnNumber: 62
+                                                columnNumber: 60
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 29,
-                                        columnNumber: 13
+                                        columnNumber: 9
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential red",
+                                        className: "la-group",
                                         children: [
-                                            "-",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "4"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 28 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 31,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 30,
-                                                columnNumber: 48
+                                                lineNumber: 31,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential red",
+                                                children: [
+                                                    "-",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 32,
+                                                        columnNumber: 48
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 32,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 30,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 28,
-                                columnNumber: 11
+                                columnNumber: 9
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 26,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                lineNumber: 4,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "changed-stats-col",
-                children: [
+                        lineNumber: 6,
+                        columnNumber: 7
+                    }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
+                        className: "changed-stats-col",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Playoff Rate: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "85.2"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 36,
-                                        columnNumber: 68
-                                    }, undefined),
-                                    "%"
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 36,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Playoff Rate: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 60.4% )"
+                                                className: "main-stat",
+                                                children: "85.2"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 38,
-                                                columnNumber: 62
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 38,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "23.7"
-                                            }, void 0, false, {
-                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 39,
-                                                columnNumber: 44
+                                                columnNumber: 68
                                             }, undefined),
                                             "%"
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                        lineNumber: 38,
+                                        columnNumber: 11
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 60.4% )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 40,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 40,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "23.7"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 41,
+                                                        columnNumber: 44
+                                                    }, undefined),
+                                                    "%"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 41,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 39,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 37,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Finals Apps: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "4"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 43,
-                                        columnNumber: 67
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 43,
-                                columnNumber: 11
+                                columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Finals Apps: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 0.8 )"
+                                                className: "main-stat",
+                                                children: "4"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 45,
-                                                columnNumber: 62
+                                                columnNumber: 67
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 45,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
+                                        className: "la-group",
                                         children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "3.2"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 0.8 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 47,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 46,
-                                                columnNumber: 44
+                                                lineNumber: 47,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "3.2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 48,
+                                                        columnNumber: 44
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 48,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 46,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 44,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 42,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Avg. Finish: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "4"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 50,
-                                        columnNumber: 67
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 50,
-                                columnNumber: 11
+                                columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Avg. Finish: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 6 )"
+                                                className: "main-stat",
+                                                children: "4"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 52,
-                                                columnNumber: 64
+                                                columnNumber: 67
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 52,
-                                        columnNumber: 15
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
+                                        className: "la-group",
                                         children: [
-                                            "-",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "2"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 6 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 54,
+                                                        columnNumber: 64
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 53,
-                                                columnNumber: 46
+                                                lineNumber: 54,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "-",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 55,
+                                                        columnNumber: 46
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 55,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 53,
-                                        columnNumber: 15
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 51,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 49,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Last Places: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "1"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 57,
-                                        columnNumber: 67
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 57,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Last Places: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 0.8 )"
+                                                className: "main-stat",
+                                                children: "1"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 59,
-                                                columnNumber: 64
+                                                columnNumber: 67
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 59,
-                                        columnNumber: 15
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
+                                        className: "la-group",
                                         children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 0.8 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 61,
+                                                        columnNumber: 64
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 60,
-                                                columnNumber: 46
+                                                lineNumber: 61,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "14.3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 62,
+                                                        columnNumber: 46
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 62,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 60,
-                                        columnNumber: 15
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 58,
-                                columnNumber: 13
+                                columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 56,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                lineNumber: 34,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "changed-stats-col",
-                children: [
+                        lineNumber: 36,
+                        columnNumber: 7
+                    }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
+                        className: "changed-stats-col",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Lucky W's: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "12"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 66,
-                                        columnNumber: 61
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 66,
-                                columnNumber: 7
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Lucky W's: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 3 )"
+                                                className: "main-stat",
+                                                children: "12"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 68,
-                                                columnNumber: 62
+                                                columnNumber: 61
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 68,
-                                        columnNumber: 13
+                                        columnNumber: 7
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential red",
+                                        className: "la-group",
                                         children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "9"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 3 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 70,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 69,
-                                                columnNumber: 48
+                                                lineNumber: 70,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential red",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "9"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 71,
+                                                        columnNumber: 48
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 71,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 69,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 67,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 65,
-                        columnNumber: 7
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Unlucky L's ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "4"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 73,
-                                        columnNumber: 64
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 73,
-                                columnNumber: 9
+                                columnNumber: 7
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Unlucky L's ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 8 )"
+                                                className: "main-stat",
+                                                children: "4"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 75,
-                                                columnNumber: 62
+                                                columnNumber: 64
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 75,
-                                        columnNumber: 13
+                                        columnNumber: 9
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential red",
+                                        className: "la-group",
                                         children: [
-                                            "-",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "4"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 8 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 77,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 76,
-                                                columnNumber: 48
+                                                lineNumber: 77,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential red",
+                                                children: [
+                                                    "-",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 78,
+                                                        columnNumber: 48
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 78,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 76,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 74,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 72,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Close W's: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "8"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 80,
-                                        columnNumber: 63
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 80,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Close W's: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 6 )"
+                                                className: "main-stat",
+                                                children: "8"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 82,
-                                                columnNumber: 62
+                                                columnNumber: 63
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 82,
-                                        columnNumber: 13
+                                        columnNumber: 9
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential green",
+                                        className: "la-group",
                                         children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "2"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 6 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 84,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 83,
-                                                columnNumber: 50
+                                                lineNumber: 84,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential green",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 85,
+                                                        columnNumber: 50
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 85,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 83,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 81,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 79,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Close L's: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "7"
-                                    }, void 0, false, {
-                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                        lineNumber: 87,
-                                        columnNumber: 63
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                lineNumber: 87,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Close L's: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 4 )"
+                                                className: "main-stat",
+                                                children: "7"
                                             }, void 0, false, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                                 lineNumber: 89,
-                                                columnNumber: 62
+                                                columnNumber: 63
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 89,
-                                        columnNumber: 13
+                                        columnNumber: 9
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
+                                        className: "la-group",
                                         children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "3"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 4 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 91,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                                                lineNumber: 90,
-                                                columnNumber: 44
+                                                lineNumber: 91,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                        lineNumber: 92,
+                                                        columnNumber: 44
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/alltime-stats/alltime-stats.jsx",
+                                                lineNumber: 92,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                         lineNumber: 90,
-                                        columnNumber: 13
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                                 lineNumber: 88,
-                                columnNumber: 11
+                                columnNumber: 9
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                        lineNumber: 86,
-                        columnNumber: 9
+                        lineNumber: 66,
+                        columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
-                lineNumber: 64,
-                columnNumber: 7
+                lineNumber: 5,
+                columnNumber: 5
             }, undefined)
         ]
-    }, void 0, true, {
-        fileName: "src/components/alltime-stats/alltime-stats.jsx",
-        lineNumber: 3,
-        columnNumber: 5
-    }, undefined);
+    }, void 0, true);
 };
 _c = AllTimeStats;
 var _c;
