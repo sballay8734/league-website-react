@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
+    // Browser Router implementation
     <BrowserRouter>
       <MainView />
     </BrowserRouter>
