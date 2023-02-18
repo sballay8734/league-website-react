@@ -10,6 +10,8 @@ export const CurrentSeasonStats = ({ owner }) => {
   // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
   return (
+    <>
+    <p className="view-test">Click stat to view chart</p>
     <div className="flex changed-stats current-season">
       <div className="changed-stats-col">
         <div className="stat-group">
@@ -104,5 +106,6 @@ export const CurrentSeasonStats = ({ owner }) => {
         </div>
       </div>
     </div>
+    </>
   )
 }

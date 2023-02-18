@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("62fa2f9b61cec3b7");
-var ErrorOverlay = require("84c3f88ef63d59e1");
+var Refresh = require("90ff01a21a85ef0f");
+var ErrorOverlay = require("ccb0fa0d9cf49945");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"62fa2f9b61cec3b7":"786KC","84c3f88ef63d59e1":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"90ff01a21a85ef0f":"786KC","ccb0fa0d9cf49945":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("34fff5f570d29224");
+module.exports = require("f20ff01f949e7798");
 
-},{"34fff5f570d29224":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"f20ff01f949e7798":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("34fff5f570d29224");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("b391d52da717c56c");
+var process = require("db77da7a14acddb3");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("b391d52da717c56c");
     ]);
 });
 
-},{"b391d52da717c56c":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"db77da7a14acddb3":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2961,9 +2961,9 @@ $RefreshReg$(_c, "App");
 }
 },{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("264bf48df415dd1f");
+module.exports = require("ad4c9f623a9b9f7d");
 
-},{"264bf48df415dd1f":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"ad4c9f623a9b9f7d":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -2975,7 +2975,7 @@ module.exports = require("264bf48df415dd1f");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("e9060b690e73248a");
+    var React = require("8cd98cfd18c6a06d");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3794,11 +3794,11 @@ module.exports = require("264bf48df415dd1f");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"e9060b690e73248a":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"8cd98cfd18c6a06d":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("c19413c770193ae2");
+module.exports = require("36ed3de0b3540631");
 
-},{"c19413c770193ae2":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"36ed3de0b3540631":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5666,7 +5666,7 @@ module.exports = require("c19413c770193ae2");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("246ca826ad9724a8");
+var m = require("4208a165c1e5ac1d");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5685,7 +5685,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"246ca826ad9724a8":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"4208a165c1e5ac1d":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5699,9 +5699,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("1880542e0f1ede07");
+module.exports = require("41621991235cc55f");
 
-},{"1880542e0f1ede07":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"41621991235cc55f":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5714,8 +5714,8 @@ module.exports = require("1880542e0f1ede07");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("4a8d7fe91902bc4a");
-    var Scheduler = require("1477b170516ae87f");
+    var React = require("93a48800e2daf18e");
+    var Scheduler = require("f394bd221b5e8ef1");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26686,11 +26686,11 @@ module.exports = require("1880542e0f1ede07");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"4a8d7fe91902bc4a":"21dqq","1477b170516ae87f":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"93a48800e2daf18e":"21dqq","f394bd221b5e8ef1":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("391e13b18b375388");
+module.exports = require("54f8df2f7cb28a67");
 
-},{"391e13b18b375388":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"54f8df2f7cb28a67":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27192,9 +27192,9 @@ const MainView = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                class: "nav-main",
+                className: "nav-main",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    class: "nav-flex",
+                    className: "nav-flex",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27279,7 +27279,170 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../owner-card/owner-card":"kN7IL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe","../king-of-the-hill/king-of-the-hill":"1izbC"}],"kN7IL":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react/jsx-dev-runtime":"iTorj","../owner-card/owner-card":"kN7IL","react-router-dom":"9xmpe","../king-of-the-hill/king-of-the-hill":"1izbC"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("ccac28c25aa7604");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30); // Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+} // When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        Refresh.register(exportValue, id + " %exports% " + key);
+    }
+}
+
+},{"ccac28c25aa7604":"786KC"}],"kN7IL":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$c997 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27300,12 +27463,17 @@ var _alltimeStats = require("../alltime-stats/alltime-stats");
 var _currentSeasonStats = require("../current-season-stats/current-season-stats");
 var _shawnBPng = require("../../../public/img/shawnB.png");
 var _shawnBPngDefault = parcelHelpers.interopDefault(_shawnBPng);
-const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
+var _reactRouterDom = require("react-router-dom");
+var _react = require("react");
+var _s = $RefreshSig$();
+const OwnerCard = ({ owner , year , setYear  })=>{
+    _s();
     // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-    function calcWinPercentage(owner) {
+    function calcWinPercentage(owner, year) {
         return (owner[year].wins / (owner[year].wins + owner[year].losses) * 100).toFixed(1);
     }
     // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    const [timeFrame, setTimeFrame] = (0, _react.useState)("All-Time");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
         className: "new-card",
         children: [
@@ -27317,7 +27485,7 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                         children: owner.ownerName
                     }, void 0, false, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 21,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {
@@ -27337,12 +27505,12 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                     children: "All-Time"
                                 }, void 0, false, {
                                     fileName: "src/components/owner-card/owner-card.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 23,
+                                lineNumber: 27,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default).Item, {
@@ -27356,24 +27524,24 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                     children: "Current Season"
                                 }, void 0, false, {
                                     fileName: "src/components/owner-card/owner-card.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 26,
+                                lineNumber: 30,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 22,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 20,
+                lineNumber: 24,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default).Body, {
@@ -27389,12 +27557,12 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                     alt: "logo"
                                 }, void 0, false, {
                                     fileName: "src/components/owner-card/owner-card.jsx",
-                                    lineNumber: 36,
+                                    lineNumber: 40,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 35,
+                                lineNumber: 39,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27409,13 +27577,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                 children: "9"
                                             }, void 0, false, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 39,
+                                                lineNumber: 43,
                                                 columnNumber: 46
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 43,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27430,13 +27598,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "( 5 )"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 41,
+                                                        lineNumber: 45,
                                                         columnNumber: 64
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 41,
+                                                lineNumber: 45,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27447,19 +27615,19 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "4"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 42,
+                                                        lineNumber: 46,
                                                         columnNumber: 52
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 42,
+                                                lineNumber: 46,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 40,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27471,13 +27639,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                 children: "5"
                                             }, void 0, false, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 44,
+                                                lineNumber: 48,
                                                 columnNumber: 54
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 44,
+                                        lineNumber: 48,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27492,13 +27660,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "( 3.3 )"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 46,
+                                                        lineNumber: 50,
                                                         columnNumber: 64
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 46,
+                                                lineNumber: 50,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27509,25 +27677,25 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "1.7"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 47,
+                                                        lineNumber: 51,
                                                         columnNumber: 52
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 47,
+                                                lineNumber: 51,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 45,
+                                        lineNumber: 49,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 38,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27542,13 +27710,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                 children: "3"
                                             }, void 0, false, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 51,
+                                                lineNumber: 55,
                                                 columnNumber: 52
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 51,
+                                        lineNumber: 55,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27563,13 +27731,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "( 0.4 )"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 57,
                                                         columnNumber: 64
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 53,
+                                                lineNumber: 57,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27580,19 +27748,19 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "2.8"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 54,
+                                                        lineNumber: 58,
                                                         columnNumber: 52
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 54,
+                                                lineNumber: 58,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 52,
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27602,18 +27770,18 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                                 className: "main-stat",
                                                 children: [
-                                                    calcWinPercentage(owner),
+                                                    calcWinPercentage(owner, 2014),
                                                     "%"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 56,
+                                                lineNumber: 60,
                                                 columnNumber: 53
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 56,
+                                        lineNumber: 60,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27628,13 +27796,13 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "( 51.5% )"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 62,
                                                         columnNumber: 64
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 58,
+                                                lineNumber: 62,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27645,53 +27813,57 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                                                         children: "27.1%"
                                                     }, void 0, false, {
                                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 63,
                                                         columnNumber: 52
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                                lineNumber: 59,
+                                                lineNumber: 63,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/owner-card/owner-card.jsx",
-                                        lineNumber: 57,
+                                        lineNumber: 61,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/owner-card/owner-card.jsx",
-                                lineNumber: 50,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 34,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "change-stats",
-                        children: timeFrame === "All-Time" ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _alltimeStats.AllTimeStats), {}, void 0, false, {
+                        children: timeFrame === "All-Time" ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _alltimeStats.AllTimeStats), {
+                            owner: owner
+                        }, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 64,
+                            lineNumber: 68,
                             columnNumber: 41
-                        }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _currentSeasonStats.CurrentSeasonStats), {}, void 0, false, {
+                        }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _currentSeasonStats.CurrentSeasonStats), {
+                            owner: owner
+                        }, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 64,
-                            columnNumber: 60
+                            lineNumber: 68,
+                            columnNumber: 74
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/owner-card/owner-card.jsx",
-                        lineNumber: 63,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 33,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default).Footer, {
@@ -27704,27 +27876,28 @@ const OwnerCard = ({ owner , year , setYear , timeFrame , setTimeFrame  })=>{
                             children: "▼"
                         }, void 0, false, {
                             fileName: "src/components/owner-card/owner-card.jsx",
-                            lineNumber: 68,
+                            lineNumber: 72,
                             columnNumber: 87
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/owner-card/owner-card.jsx",
-                    lineNumber: 68,
+                    lineNumber: 72,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/owner-card/owner-card.jsx",
-                lineNumber: 67,
+                lineNumber: 71,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/owner-card/owner-card.jsx",
-        lineNumber: 18,
+        lineNumber: 22,
         columnNumber: 5
     }, undefined);
 };
+_s(OwnerCard, "Y2Te0XdTCSIb9fW6MRXTp9xZSMU=");
 _c = OwnerCard;
 var _c;
 $RefreshReg$(_c, "OwnerCard");
@@ -27734,7 +27907,7 @@ $RefreshReg$(_c, "OwnerCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-bootstrap/Card":"lAynp","react-bootstrap/Nav":"cXyL2","react-bootstrap/Button":"aPzUt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../alltime-stats/alltime-stats":"1CQVn","../current-season-stats/current-season-stats":"8GLAI","../../../public/img/shawnB.png":"fm1Fd"}],"lAynp":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-bootstrap/Card":"lAynp","react-bootstrap/Nav":"cXyL2","react-bootstrap/Button":"aPzUt","../alltime-stats/alltime-stats":"1CQVn","../current-season-stats/current-season-stats":"8GLAI","../../../public/img/shawnB.png":"fm1Fd","react-router-dom":"9xmpe","react":"21dqq"}],"lAynp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -27922,9 +28095,9 @@ exports.default = ThemeProvider;
 
 },{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
 "use strict";
-module.exports = require("fdd2eec00dd0c6c8");
+module.exports = require("34af5a801275a720");
 
-},{"fdd2eec00dd0c6c8":"kujY4"}],"kujY4":[function(require,module,exports) {
+},{"34af5a801275a720":"kujY4"}],"kujY4":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-runtime.development.js
@@ -27936,7 +28109,7 @@ module.exports = require("fdd2eec00dd0c6c8");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("5a9cb784197ead3c");
+    var React = require("d12806f24382c5f0");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -28767,37 +28940,7 @@ module.exports = require("fdd2eec00dd0c6c8");
     exports.jsxs = jsxs;
 })();
 
-},{"5a9cb784197ead3c":"21dqq"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"itt7e":[function(require,module,exports) {
+},{"d12806f24382c5f0":"21dqq"}],"itt7e":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -28973,7 +29116,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = all;
-var _createChainableTypeChecker = require("3c8150e7cee55ef6");
+var _createChainableTypeChecker = require("22a35b3f999da79a");
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -28996,7 +29139,7 @@ function all() {
 }
 module.exports = exports["default"];
 
-},{"3c8150e7cee55ef6":"1m8lT"}],"1m8lT":[function(require,module,exports) {
+},{"22a35b3f999da79a":"1m8lT"}],"1m8lT":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -30444,140 +30587,7 @@ Button.displayName = "Button";
 Button.defaultProps = defaultProps;
 exports.default = Button;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("f243ee2bfddf1f61");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30); // Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-} // When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        Refresh.register(exportValue, id + " %exports% " + key);
-    }
-}
-
-},{"f243ee2bfddf1f61":"786KC"}],"1CQVn":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1CQVn":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$b821 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -31512,895 +31522,915 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "CurrentSeasonStats", ()=>CurrentSeasonStats);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const CurrentSeasonStats = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "flex changed-stats current-season",
+const CurrentSeasonStats = ({ owner  })=>{
+    // Functions @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    function displayWins(owner, year) {
+        return owner[year].wins;
+    }
+    function displayLosses(owner, year) {
+        return owner[year].losses;
+    }
+    // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "changed-stats-col",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Average PF: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "106.5"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 6,
-                                        columnNumber: 66
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 6,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
-                                        children: [
-                                            "LG Avg. ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 118.2 )"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 8,
-                                                columnNumber: 62
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 8,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential green",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 9,
-                                                columnNumber: 50
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 9,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 7,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 5,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Average PA: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "152.9"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 13,
-                                        columnNumber: 64
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 13,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
-                                        children: [
-                                            "LG Avg. ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 122.9 )"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 15,
-                                                columnNumber: 62
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 15,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential red",
-                                        children: [
-                                            "-",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "44.3"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 16,
-                                                columnNumber: 48
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 16,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 14,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Wins: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "2"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 20,
-                                        columnNumber: 58
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 20,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
-                                        children: [
-                                            "LG Avg. ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 57 )"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 22,
-                                                columnNumber: 62
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 22,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "38"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 23,
-                                                columnNumber: 44
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 23,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 21,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 19,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Losses: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "0"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 27,
-                                        columnNumber: 60
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 27,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
-                                        children: [
-                                            "LG Avg. ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 28 )"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 29,
-                                                columnNumber: 62
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 29,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential red",
-                                        children: [
-                                            "-",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "4"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 30,
-                                                columnNumber: 48
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 30,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 28,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 26,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "view-test",
+                children: "Click stat to view chart"
+            }, void 0, false, {
                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                lineNumber: 4,
-                columnNumber: 7
+                lineNumber: 14,
+                columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "changed-stats-col",
+                className: "flex changed-stats current-season",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
+                        className: "changed-stats-col",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Points LOB: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "85.2"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 36,
-                                        columnNumber: 66
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 36,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Average PF: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 30.4 )"
+                                                className: "main-stat",
+                                                children: "106.5"
                                             }, void 0, false, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 38,
-                                                columnNumber: 62
+                                                lineNumber: 18,
+                                                columnNumber: 66
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 38,
-                                        columnNumber: 13
+                                        lineNumber: 18,
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
+                                        className: "la-group",
                                         children: [
-                                            "+",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 118.2 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 20,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 20,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential green",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "14.3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 21,
+                                                        columnNumber: 50
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 21,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 19,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 17,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stat-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-stat text-muted",
+                                        children: [
+                                            "Average PA: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "23.7"
+                                                className: "main-stat",
+                                                children: "152.9"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 25,
+                                                columnNumber: 64
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 25,
+                                        columnNumber: 9
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 122.9 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 27,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 27,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential red",
+                                                children: [
+                                                    "-",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "44.3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 28,
+                                                        columnNumber: 48
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 28,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 26,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 24,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stat-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-stat text-muted",
+                                        children: [
+                                            "Wins: ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "main-stat",
+                                                children: displayWins(owner, 2014)
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 32,
+                                                columnNumber: 58
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 32,
+                                        columnNumber: 9
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 57 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 34,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 34,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "38"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 35,
+                                                        columnNumber: 44
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 35,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 33,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 31,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stat-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-stat text-muted",
+                                        children: [
+                                            "Losses: ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "main-stat",
+                                                children: displayLosses(owner, 2014)
                                             }, void 0, false, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
                                                 lineNumber: 39,
-                                                columnNumber: 44
+                                                columnNumber: 60
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
                                         lineNumber: 39,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 37,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Weeks Top 5 Out: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "4"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 45,
-                                        columnNumber: 71
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 45,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
-                                children: [
+                                        columnNumber: 9
+                                    }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "la-group",
                                         children: [
-                                            "LG Avg. ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 0.8 )"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 28 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 41,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 47,
-                                                columnNumber: 62
+                                                lineNumber: 41,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential red",
+                                                children: [
+                                                    "-",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 42,
+                                                        columnNumber: 48
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 42,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 47,
-                                        columnNumber: 13
-                                    }, undefined),
+                                        lineNumber: 40,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 38,
+                                columnNumber: 9
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                        lineNumber: 16,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "changed-stats-col",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stat-group",
+                                children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "+",
+                                            "Points LOB: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "3.2"
+                                                className: "main-stat",
+                                                children: "85.2"
                                             }, void 0, false, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
                                                 lineNumber: 48,
-                                                columnNumber: 44
+                                                columnNumber: 66
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
                                         lineNumber: 48,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 46,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 42,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Total PF: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "302.5"
-                                    }, void 0, false, {
+                                        columnNumber: 11
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 30.4 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 50,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 50,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "23.7"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 51,
+                                                        columnNumber: 44
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 51,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 52,
-                                        columnNumber: 64
+                                        lineNumber: 49,
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 52,
-                                columnNumber: 11
+                                lineNumber: 47,
+                                columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Weeks Top 5 Out: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 256.2 )"
+                                                className: "main-stat",
+                                                children: "4"
                                             }, void 0, false, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 54,
+                                                lineNumber: 57,
+                                                columnNumber: 71
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 57,
+                                        columnNumber: 11
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 0.8 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 59,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 59,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "3.2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 60,
+                                                        columnNumber: 44
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 60,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 58,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 54,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stat-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-stat text-muted",
+                                        children: [
+                                            "Total PF: ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "main-stat",
+                                                children: "302.5"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 64,
                                                 columnNumber: 64
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 54,
-                                        columnNumber: 15
+                                        lineNumber: 64,
+                                        columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
+                                        className: "la-group",
                                         children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "46.8"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 256.2 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 66,
+                                                        columnNumber: 64
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 55,
-                                                columnNumber: 46
+                                                lineNumber: 66,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "46.8"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 67,
+                                                        columnNumber: 46
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 67,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 55,
-                                        columnNumber: 15
+                                        lineNumber: 65,
+                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 53,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 51,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Total PA: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "233.8"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 59,
-                                        columnNumber: 64
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 59,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Total PA: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 241.8 )"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 61,
-                                                columnNumber: 64
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 61,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "14.3"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 62,
-                                                columnNumber: 46
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 62,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 60,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 58,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                lineNumber: 34,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "changed-stats-col",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Lucky W's: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "1"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 68,
-                                        columnNumber: 61
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 68,
-                                columnNumber: 7
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
-                                        children: [
-                                            "LG Avg. ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 2 )"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 70,
-                                                columnNumber: 62
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 70,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential red",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "9"
+                                                className: "main-stat",
+                                                children: "233.8"
                                             }, void 0, false, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
                                                 lineNumber: 71,
-                                                columnNumber: 48
+                                                columnNumber: 64
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
                                         lineNumber: 71,
+                                        columnNumber: 11
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 241.8 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 73,
+                                                        columnNumber: 64
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 73,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "14.3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 74,
+                                                        columnNumber: 46
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 74,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 72,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 69,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 67,
+                        lineNumber: 46,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
+                        className: "changed-stats-col",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
+                                className: "stat-group",
                                 children: [
-                                    "Unlucky L's ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "0"
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-stat text-muted",
+                                        children: [
+                                            "Lucky W's: ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "main-stat",
+                                                children: "1"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 80,
+                                                columnNumber: 61
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 75,
-                                        columnNumber: 64
+                                        lineNumber: 80,
+                                        columnNumber: 7
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 2 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 82,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 82,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential red",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "9"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 83,
+                                                        columnNumber: 48
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 83,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 81,
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 75,
+                                lineNumber: 79,
+                                columnNumber: 7
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stat-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-stat text-muted",
+                                        children: [
+                                            "Unlucky L's ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "main-stat",
+                                                children: "0"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 87,
+                                                columnNumber: 64
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 87,
+                                        columnNumber: 9
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 1 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 89,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 89,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential red",
+                                                children: [
+                                                    "-",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "4"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 90,
+                                                        columnNumber: 48
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 90,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 88,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 86,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
+                                className: "stat-group",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
+                                        className: "stats-col-stat text-muted",
                                         children: [
-                                            "LG Avg. ",
+                                            "Close W's: ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 1 )"
+                                                className: "main-stat",
+                                                children: "1"
                                             }, void 0, false, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 77,
-                                                columnNumber: 62
+                                                lineNumber: 94,
+                                                columnNumber: 63
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 77,
-                                        columnNumber: 13
+                                        lineNumber: 94,
+                                        columnNumber: 9
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential red",
+                                        className: "la-group",
                                         children: [
-                                            "-",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "4"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 1 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 96,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 78,
-                                                columnNumber: 48
+                                                lineNumber: 96,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential green",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "2"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 97,
+                                                        columnNumber: 50
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 97,
+                                                columnNumber: 13
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 78,
-                                        columnNumber: 13
+                                        lineNumber: 95,
+                                        columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 76,
-                                columnNumber: 11
+                                lineNumber: 93,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "stat-group",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "stats-col-stat text-muted",
+                                        children: [
+                                            "Close L's: ",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "main-stat",
+                                                children: "0"
+                                            }, void 0, false, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 101,
+                                                columnNumber: 63
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 101,
+                                        columnNumber: 9
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "la-group",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "stats-col-la text-muted",
+                                                children: [
+                                                    "LG Avg. ",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "la-stat",
+                                                        children: "( 1 )"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 103,
+                                                        columnNumber: 62
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 103,
+                                                columnNumber: 13
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "differential",
+                                                children: [
+                                                    "+",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        children: "3"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                        lineNumber: 104,
+                                                        columnNumber: 44
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                                lineNumber: 104,
+                                                columnNumber: 13
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                        lineNumber: 102,
+                                        columnNumber: 11
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
+                                lineNumber: 100,
+                                columnNumber: 9
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 74,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Close W's: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "1"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 82,
-                                        columnNumber: 63
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 82,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
-                                        children: [
-                                            "LG Avg. ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 1 )"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 84,
-                                                columnNumber: 62
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 84,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential green",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "2"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 85,
-                                                columnNumber: 50
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 85,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 83,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 81,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "stat-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "stats-col-stat text-muted",
-                                children: [
-                                    "Close L's: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        className: "main-stat",
-                                        children: "0"
-                                    }, void 0, false, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 89,
-                                        columnNumber: 63
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 89,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "la-group",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "stats-col-la text-muted",
-                                        children: [
-                                            "LG Avg. ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "la-stat",
-                                                children: "( 1 )"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 91,
-                                                columnNumber: 62
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 91,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "differential",
-                                        children: [
-                                            "+",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                children: "3"
-                                            }, void 0, false, {
-                                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                                lineNumber: 92,
-                                                columnNumber: 44
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                        lineNumber: 92,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                                lineNumber: 90,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                        lineNumber: 88,
-                        columnNumber: 9
+                        lineNumber: 78,
+                        columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/current-season-stats/current-season-stats.jsx",
-                lineNumber: 66,
-                columnNumber: 7
+                lineNumber: 15,
+                columnNumber: 5
             }, undefined)
         ]
-    }, void 0, true, {
-        fileName: "src/components/current-season-stats/current-season-stats.jsx",
-        lineNumber: 3,
-        columnNumber: 5
-    }, undefined);
+    }, void 0, true);
 };
 _c = CurrentSeasonStats;
 var _c;
@@ -32412,9 +32442,9 @@ $RefreshReg$(_c, "CurrentSeasonStats");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fm1Fd":[function(require,module,exports) {
-module.exports = require("8ba2e491ea5ed52").getBundleURL("byUka") + "shawnB.634e7760.png" + "?" + Date.now();
+module.exports = require("355dedb24e49cac8").getBundleURL("byUka") + "shawnB.634e7760.png" + "?" + Date.now();
 
-},{"8ba2e491ea5ed52":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"355dedb24e49cac8":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {

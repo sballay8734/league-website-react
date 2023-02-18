@@ -180,8 +180,8 @@ export const MainView = () => {
   return (
     <>
     {/* REDO THIS WITH BOOTSTRAP. JUST TESTING HERE */}
-      <nav class="nav-main">
-        <ul class="nav-flex">
+      <nav className="nav-main">
+        <ul className="nav-flex">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/kingofthehill">King of the Hill</Link></li>
         </ul>
