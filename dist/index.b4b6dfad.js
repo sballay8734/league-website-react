@@ -30603,7 +30603,7 @@ const AllTimeStats = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 className: "view-test",
-                children: "Stats View - Chart View"
+                children: "Click stat to view chart"
             }, void 0, false, {
                 fileName: "src/components/alltime-stats/alltime-stats.jsx",
                 lineNumber: 4,

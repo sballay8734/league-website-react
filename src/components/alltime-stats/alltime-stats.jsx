@@ -1,7 +1,7 @@
 export const AllTimeStats = () => {
   return (
     <>
-    <p className="view-test">Stats View - Chart View</p>
+    <p className="view-test">Click stat to view chart</p>
     <div className="flex changed-stats">
       <div className="changed-stats-col">
         <div className="stat-group">
